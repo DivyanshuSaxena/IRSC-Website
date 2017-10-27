@@ -34,7 +34,7 @@
   </head>
   <body>
     
-    <?php include header.php ?>
+    <?php include './header.php' ?>
 
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
