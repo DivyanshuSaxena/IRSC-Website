@@ -39,45 +39,33 @@
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown dropdown-toggle">
-                  <a class="active" href="index.html">Home</a>
-                </li>
-                <li class="dropdown dropdown-toggle">
-                  <a href="#" data-toggle="dropdown">Courses <i class="fa fa-angle-down"></i></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="courses-list.html">Courses List</a></li>    
-                    <li><a href="courses-grid.html">Courses Grid</a></li>  
-                    <li><a href="courses-single.html">Single Course</a></li>   
-                  </ul>                        
-                </li>
-                <li class="dropdown dropdown-toggle">
-                  <a href="#" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="about.html">About Page</a></li>                     
-                    <li><a href="gallery.html">Image Gallery</a></li>
-                    <li><a href="faq.html">FAQ</a></li>    
-                    <li><a href="login.html">Login Page</a></li> 
-                    <li><a href="single-teacher.html">Single Teacher</a></li> 
-                    <li><a href="registration.html">Registration Form</a></li> 
-                    <li><a href="contact.html">Contacts</a></li> 
-                    <li><a href="404.html">404</a></li> 
-                  </ul>                        
+                  <a href="about.html">About</a>
                 </li>
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.html">Events Grid</a></li>                     
-                    <li><a href="event.html">Single Event</a></li>
+                    <li><a href="event-grid.html">Regular Events</a></li>                     
+                    <li><a href="event.html">UN Road Safety Week</a></li>
+                  </ul>                        
+                </li>                 
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Competitions <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.html">iSafe</a></li>                     
+                    <li><a href="event.html">Watch the Road</a></li>
                   </ul>                        
                 </li> 
-                <li class="dropdown dropdown-toggle">
-                  <a href="#" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="blog.html">Blog - Right Sidebar</a></li>                     
-                    <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a></li>
-                    <li><a href="blog-full-width.html">Blog - Full Width</a></li>   
-                    <li><a href="single-post.html">Blog Single Post</a></li>   
-                  </ul>                        
-                </li>              
+                    <li><a href="event-grid.html">Founders</a></li>                     
+                    <li><a href="event.html">Arms</a></li>                  
+                    <li><a href="event.html">College Chapters</a></li>                  
+                    <li><a href="event.html">Join Us</a></li>
+                  </ul>
+                </li>   
+                <li class="dropdown dropdown-toggle"><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Achievements</a></li>
+                <li><a href="#" data-toggle="dropdown">Blog</a></li>              
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>  
@@ -99,10 +87,6 @@
             <ul class="wpb-mobile-menu">
               <li>
                 <a class="active" href="index.html">Home</a>
-                <ul>
-                  <li><a class="active" href="index.html">Home Page 1</a></li>    
-                  <li><a href="index-1.html">Home Page 2</a></li>     
-                </ul>                        
               </li>
               <li>
                 <a href="#">Courses</a>
