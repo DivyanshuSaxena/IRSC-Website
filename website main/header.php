@@ -89,6 +89,9 @@
                 <a class="active" href="index.html">Home</a>
               </li>
               <li>
+                <a class="active" href="about.html">About</a>
+              </li>
+              <li>
                 <a href="#">Courses</a>
                 <ul>
                   <li><a href="courses-list.html">Courses List</a></li>    
