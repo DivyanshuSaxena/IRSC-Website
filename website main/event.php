@@ -27,49 +27,298 @@
     <link rel="stylesheet" href="assets/css/slicknav.css" type="text/css">
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
 
   </head>
   <body>
     
-  <?php include './header.php' ?>
+    <?php include './header.php' ?>
 
-    <!-- Page Header Start -->
-    <div class="page-header" style="background: url(assets/img/banner1.jpg);">
-      <div class="container">
-        <div class="row">         
-          <div class="col-md-12">
-            <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Events Upcomming</h2>
-              <a href="index.html">Home</a>
-              <span>/</span>
-              <span class="current">Events</span>
+    
+
+   
+   
+
+
+    <!-- Courses Section Start -->
+    <section class="courses section">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">Core Team</h2>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                                <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                             
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                               
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                           
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                                
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                 
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                           
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            
         </div>
-      </div>
-    </div>
-    <!-- Page Header End --> 
+    </section>      <!-- Container Starts -->
 
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
+     <section class="courses section">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">College Chapters</h2>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                             
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                               
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                           
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                                
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                 
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                           
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>      <!-- Container Starts -->
+
+    /section>      <!-- Container Starts -->
+
+     <section class="courses section">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">CRW</h2>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                             
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                               
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                           
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                                
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                 
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                           
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>      <!-- Container Starts -->
+
+
+
+    <!-- Courses Section End -->
+
+   
+    <!-- NewsLetter Section Start -->
+    <section class="newsletter">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
+          <div class="col-md-6">
+            <p class="sub">Subscribe</p>
+            <h3>To Our Newsletter</h3>
+          </div>
+          <div class="col-md-6">
+            <form id="subscribe" action="">
+              <div class="subscribe">
+                <input class="form-control" name="EMAIL" placeholder="Your email here" required="" type="email">
+                <button class="btn btn-common" type="submit">Subscribe</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Content Section  -->
+    <!-- NewsLetter Section End -->
 
     <!-- Footer Section -->
     <footer>
-      <!-- Container Starts -->
       <div class="container">
         <!-- Row Starts -->
         <div class="row">
