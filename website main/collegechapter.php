@@ -27,91 +27,100 @@
     <link rel="stylesheet" href="assets/css/slicknav.css" type="text/css">
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
 
   </head>
-
   <body>
     
     <?php include './header.php' ?>
-    <!-- Header area wrapper End -->
-
-    <!-- Page Header Start -->
-    <div class="page-header" style="background: url(assets/img/banner1.jpg);">
-      <div class="container">
-        <div class="row">         
-          <div class="col-md-12">
-            <div class="breadcrumb-wrapper">
-              <h2 class="page-title">About Us</h2>
-              <a href="index.html">Home</a>
-              <span>/</span>
-              <span class="current">About Us</span>
+    <!-- Container Starts -->
+   
+     <section class="courses section">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">College Chapters</h2>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                             
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                            
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                               
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                           
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                                
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="courses-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/courses/img-1.jpg" alt="">
+                 
+                        </div>
+                        <div class="course-detail-wrap">
+                            <div class="teacher-wrap">
+                               <p>Lorem Ipsum</p>
+                            </div>
+                            <div class="course-content" align="center">
+                                <h3><a href="courses-single.html">Executive</a></h3>
+                           
+                                <a href="#" ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            
         </div>
-      </div>
-    </div>
-    <!-- Page Header End --> 
-
-    <!-- About Us section Start -->
-    <div class="about section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <div class="about-header">
-                <h3 class="medium-title">Welecome To Bright University</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laudantium nemo eveniet excepturi, suscipit amet illo autem quasi, sequi illum quisquam doloremque est magni accusamus quo, officia voluptates temporibus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <ul class="info-list">
-              <li><a href="#"><i class="fa fa-check"></i> Narwhal quinoa sriacha organic.</a></li>
-              <li><a href="#"><i class="fa fa-check"></i> Artisan paleo flannel, polaroid umami franzen.</a></li>
-              <li><a href="#"><i class="fa fa-check"></i> Sriracha vegan typewriter tofu gentrify.</a></li>
-            </ul>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="img-thumb">
-                <img src="assets/img/about/img1.jpg" alt="">
-            </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    <!-- About Us section End -->   
-<!-- 
-     Start Content Section 
-    <section id="content" class="error-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    End Content Section  -->
-
-    <!-- Start Call to Action Section 
-    <div class="cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-8">
-            <h3>Locavore food truck cornhole sustainable paleo hella.</h3>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <a href="#" class="btn btn-border">BUY NOW</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    End Call to Action Section --> 
+    </section>      <!-- Container Starts -->
 
     <!-- Footer Section -->
     <footer>
-      <!-- Container Starts -->
       <div class="container">
         <!-- Row Starts -->
         <div class="row">
@@ -124,7 +133,7 @@
               A powerhouse of cutting-edge education, research & teaching in The World
             </p>  
             <ul class="address">
-                <li><i class="fa fa-home"></i> Sydney NSW 2052, Australia</li>
+                <li><i class="fa fa-home"></i> New Delhi, India</li>
                 <li><i class="fa fa-phone"></i> +61 2 9385 1000</li>
                 <li><i class="fa fa-envelope"></i> hello@brightuniversity.edu</li>
             </ul>        

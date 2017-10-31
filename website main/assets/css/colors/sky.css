@@ -5,7 +5,7 @@ a:hover{
   color: #01b1d7;
 }
 .btn-common {
-  background: #01b1d7;
+  background: #aaa;
 }
 .btn-common::before{
   background: #0cc3ea;

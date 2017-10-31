@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="activity-item active-item">
+                    <div class="activity-item">
                         <div class="icon secend-color">
                             <i class="fa fa-graduation-cap"></i>
                         </div>
@@ -125,7 +125,6 @@
                         <div class="course-detail-wrap">
                             <div class="teacher-wrap">
                                 <span class="course-instructor">by <a href="#">Maria Bella</a>, <a href="#">Jana Smith</a></span>
-                                <img src="assets/img/courses/thumb-teacher-1.jpg" alt="">
                             </div>
                             <div class="course-content">
                                 <h3><a href="courses-single.html">Computer Science</a></h3>

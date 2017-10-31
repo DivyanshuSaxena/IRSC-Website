@@ -7,7 +7,7 @@
               <!-- Quick Contacts Starts -->
               <div class="quick-contacts pull-right">
                   <span><i class="fa fa-envelope"></i><a href="#">amar@road-safety.co.in</a></span>
-                  <span><a href="login.html"><i class="fa fa-user"></i> Login</a> / <a href="login.html">Register</a></span>
+                  <span><a href="login.php"><i class="fa fa-user"></i> Login</a> / <a href="login.php">Register</a></span>
               </div>
               <!-- Quick Contacts End -->
           </div>
@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+              <a class="navbar-brand align-middle" href="index.php"><img src="assets/img/logo.png" alt=""></a>
             </div>
             <!-- Brand End -->
 
@@ -39,34 +39,41 @@
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown dropdown-toggle">
-                  <a href="about.html">About</a>
+                  <a href="about.php">About</a>
                 </li>
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.html">Regular Events</a></li>                     
-                    <li><a href="event.html">UN Road Safety Week</a></li>
+                    <li><a href="event-grid.php">Regular Events</a></li>                     
+                    <li><a href="event.php">UN Road Safety Week</a></li>
                   </ul>                        
                 </li>                 
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Competitions <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.html">iSafe</a></li>                     
-                    <li><a href="event.html">Watch the Road</a></li>
+                    <li><a href="event-grid.php">iSafe</a></li>                     
+                    <li><a href="event.php">Watch the Road</a></li>
                   </ul>                        
                 </li> 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.html">Founders</a></li>                     
-                    <li><a href="event.html">Arms</a></li>                  
-                    <li><a href="event.html">College Chapters</a></li>                  
-                    <li><a href="event.html">Join Us</a></li>
+                    <li><a href="event-grid.php">Founders</a></li>
+                    <li><a href="arms.php">Arms</a></li>                     
+                    <li><a href="coreteam.php">Core Team</a></li>            
+                    <li><a href="crw.php">CRWs</a></li>                  
+                    <li><a href="collegechapter.php">College Chapters</a></li>                  
+                    <li><a href="event.php">Join Us</a></li>
                   </ul>
                 </li>   
-                <li class="dropdown dropdown-toggle"><a href="gallery.html">Gallery</a></li>
-                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Achievements</a></li>
+                <li class="dropdown"><a href="gallery.php">Gallery</a></li>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Achievements <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Successful Projects</a></li>
+                    <li><a href="awards.php">Awards</a></li>
+                  </ul>
+                </li>
                 <li><a href="#" data-toggle="dropdown">Blog</a></li>              
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
               </ul>
             </div>  
              <!-- Form for navbar search area -->
@@ -86,49 +93,49 @@
             <!-- Mobile Menu Start -->
             <ul class="wpb-mobile-menu">
               <li>
-                <a class="active" href="index.html">Home</a>
+                <a class="active" href="index.php">Home</a>
               </li>
               <li>
-                <a class="active" href="about.html">About</a>
+                <a class="active" href="about.php">About</a>
               </li>
               <li>
                 <a href="#">Courses</a>
                 <ul>
-                  <li><a href="courses-list.html">Courses List</a></li>    
-                  <li><a href="courses-grid.html">Courses Grid</a></li>  
-                  <li><a href="courses-single.html">Single Course</a></li>   
+                  <li><a href="courses-list.php">Courses List</a></li>    
+                  <li><a href="courses-grid.php">Courses Grid</a></li>  
+                  <li><a href="courses-single.php">Single Course</a></li>   
                 </ul>                        
               </li>
               <li>
                 <a href="#">Pages</a>
                 <ul>
-                  <li><a href="about.html">About Page</a></li>                     
-                  <li><a href="gallery.html">Image Gallery</a></li>
-                  <li><a href="faq.html">FAQ</a></li>    
-                  <li><a href="login.html">Login Page</a></li> 
-                  <li><a href="single-teacher.html">Single Teacher</a></li> 
-                  <li><a href="registration.html">Registration Form</a></li> 
-                  <li><a href="contact.html">Contacts</a></li> 
-                  <li><a href="404.html">404</a></li> 
+                  <li><a href="about.php">About Page</a></li>                     
+                  <li><a href="gallery.php">Image Gallery</a></li>
+                  <li><a href="faq.php">FAQ</a></li>    
+                  <li><a href="login.php">Login Page</a></li> 
+                  <li><a href="single-teacher.php">Single Teacher</a></li> 
+                  <li><a href="registration.php">Registration Form</a></li> 
+                  <li><a href="contact.php">Contacts</a></li> 
+                  <li><a href="404.php">404</a></li> 
                 </ul>                        
               </li>
               <li>
                 <a href="#">Events</a>
                 <ul>
-                  <li><a href="event-grid.html">Events Grid</a></li>                     
-                  <li><a href="event.html">Single Event</a></li>
+                  <li><a href="event-grid.php">Events Grid</a></li>                     
+                  <li><a href="event.php">Single Event</a></li>
                 </ul>                        
               </li> 
               <li>
                 <a href="#">Blog</a>
                 <ul>
-                  <li><a href="blog.html">Blog - Right Sidebar</a></li>                     
-                  <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a></li>
-                  <li><a href="blog-full-width.html">Blog - Full Width</a></li>   
-                  <li><a href="single-post.html">Blog Single Post</a></li>   
+                  <li><a href="blog.php">Blog - Right Sidebar</a></li>                     
+                  <li><a href="blog-left-sidebar.php">Blog - Left Sidebar</a></li>
+                  <li><a href="blog-full-width.php">Blog - Full Width</a></li>   
+                  <li><a href="single-post.php">Blog Single Post</a></li>   
                 </ul>                        
               </li>              
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
             <!-- Mobile Menu End -->
 

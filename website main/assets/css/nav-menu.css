@@ -277,7 +277,7 @@
 .slicknav_menu {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 999px) {
   .navbar-brand {
     position: absolute;
     top: 0;
@@ -287,11 +287,11 @@
     display: none;
   }
   .slicknav_menu {
-    display: block;
+    display: block !important;
   }
 }
 /* SlickMenu responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .navbar-toggle {
     display: none;
   }
