@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="assets/css/slicknav.css" type="text/css">
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/imp.css">
+
 
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
@@ -50,6 +52,16 @@
       </div>
     </section>
     <!-- End Content Section  -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impb"><center><h2 style="color: #FB3640">Lorem Ipsum</h2></center></div></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impa"><center><h2 style="color: white">Lorem Ipsum</h2></center></div></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impb"><center><h2 style="color: #FB3640">Lorem Ipsum</h2></center></div></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impa"><center><h2 style="color: white">Lorem Ipsum</h2></center></div></div>
+    </div>
 
     <!-- Activity Area Start -->
     <section class="activity-area section">
