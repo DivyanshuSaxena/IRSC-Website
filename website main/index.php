@@ -52,16 +52,7 @@
       </div>
     </section>
     <!-- End Content Section  -->
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impb"><center><h2 style="color: #FB3640">Lorem Ipsum</h2></center></div></div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impa"><center><h2 style="color: white">Lorem Ipsum</h2></center></div></div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impb"><center><h2 style="color: #FB3640">Lorem Ipsum</h2></center></div></div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impa"><center><h2 style="color: white">Lorem Ipsum</h2></center></div></div>
-    </div>
+ 
 
     <!-- Activity Area Start -->
     <section class="activity-area section">
@@ -119,6 +110,19 @@
       </div>
     </section>
     <!-- End Content Section  -->
+
+    <!-- Impact Section  Start-->
+         <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impb"><p style="color: #FB3640">Lorem Ipsum</p></div></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impa"><p style="color: white">Lorem Ipsum</p></div></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impb"><p style="color: #FB3640">Lorem Ipsum</p></div></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="impa"><p style="color: white">Lorem Ipsum</p></div></div>
+    </div>
+    <!-- Impact Section End  -->
 
     <!-- Courses Section Start -->
     <section class="courses section">
