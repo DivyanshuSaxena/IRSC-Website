@@ -60,7 +60,7 @@
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <div class="about-header">
-                <h3 class="medium-title">Welecome To Bright University</h3>
+                <h3 class="medium-title">Welcome To Bright University</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laudantium nemo eveniet excepturi, suscipit amet illo autem quasi, sequi illum quisquam doloremque est magni accusamus quo, officia voluptates temporibus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <ul class="info-list">
@@ -75,8 +75,64 @@
             </div>
         </div>
         </div>
+      <hr/>  
       </div>
+
     </div>
+
+    <div class="about section">
+      <div class="container">
+      	<div class="row">
+	        <div class="col-md-4 col-sm-6 col-xs-12">
+	            <div class="img-thumb">
+	                <img src="assets/img/about/img2.jpg" alt="">
+	            </div>
+	        </div>
+	  	
+	        <div class="col-md-8 col-sm-6 col-xs-12">
+	           <div class="about-header">
+	               <h3 class="medium-title">Our Vision</h3>
+	               <p>Ne ilman osaan on he osata ja. No rosvoavat semmoisia se varmuuden. Tuon ota han saa anna niin elan koli aija. Nuo yha saan joko tyly. Meille sanoen vei ole vuoden kaikki talven tuo porsas. He kasvoista ai juoksette ja tervehtii on. Porhalsi loytaisi me lekkeria paasevat ja.</p>
+	           </div>
+	            <ul class="info-list">
+              <li><a href="#"><i class="fa fa-check"></i> Narwhal quinoa sriacha organic.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Artisan paleo flannel, polaroid umami franzen.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Sriracha vegan typewriter tofu gentrify.</a></li>
+            </ul>
+	        </div>
+	    </div>    
+        </div>
+      <hr/>  
+      </div>
+
+    </div>
+
+    <div class="about section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <div class="about-header">
+                <h3 class="medium-title">Our Mission</h3>
+                <p>For norland produce age wishing. To figure on it spring season up. Her provision acuteness had excellent two why intention. As called mr needed praise at. Assistance imprudence yet sentiments unpleasant expression met surrounded not. Be at talked ye though secure nearer.</p>
+            </div>
+            <ul class="info-list">
+              <li><a href="#"><i class="fa fa-check"></i> Narwhal quinoa sriacha organic.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Artisan paleo flannel, polaroid umami franzen.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Sriracha vegan typewriter tofu gentrify.</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="img-thumb">
+                <img src="assets/img/about/img1.jpg" alt="">
+            </div>
+        </div>
+        </div>
+      <hr/>  
+      </div>
+
+    </div>
+
+
     <!-- About Us section End -->   
 <!-- 
      Start Content Section 
