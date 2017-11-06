@@ -134,7 +134,7 @@
                 </ul>                        
               </li> 
               <li>
-                <a href="#">Blog</a>
+                <a href="#">Media</a>
                 <ul>
                   <li><a href="blog.php">Blog - Right Sidebar</a></li>                     
                   <li><a href="blog-left-sidebar.php">Blog - Left Sidebar</a></li>
