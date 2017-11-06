@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
@@ -55,7 +59,7 @@
     <!-- Page Header End --> 
 
     <!-- About Us section Start -->
-    <div class="about section">
+    <div class="about section wow slideInLeft" style="padding: 20px !important;" data-wow-duration="1s">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
@@ -80,7 +84,7 @@
 
     </div>
 
-    <div class="about section">
+    <div class="about section wow slideInRight" data-wow-duration="1s">
       <div class="container">
       	<div class="row">
 	        <div class="col-md-4 col-sm-6 col-xs-12">
@@ -107,7 +111,7 @@
 
     </div>
 
-    <div class="about section">
+    <div class="about section wow slideInLeft" data-wow-duration="1s">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">

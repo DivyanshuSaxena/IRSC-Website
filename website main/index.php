@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
@@ -112,22 +116,28 @@
     <!-- End Content Section  -->
 
     <!-- Impact Section  Start-->
-         <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impb"><p style="color: #FB3640">Lorem Ipsum</p></div></div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impa"><p style="color: white">Lorem Ipsum</p></div></div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impb"><p style="color: #FB3640">Lorem Ipsum</p></div></div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="impa"><p style="color: white">Lorem Ipsum</p></div></div>
+    <div class="container" style="width: 100% !important; padding: 0px;">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="impb"><p style="color: #FB3640">Lorem Ipsum</p></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="impa"><p style="color: white;">Lorem Ipsum</p></div>
+            </div>  
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="impb"><p style="color: #FB3640">Lorem Ipsum</p></div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="impa"><p style="color: white;">Lorem Ipsum</p></div>
+            </div>
+        </div>
     </div>
     <!-- Impact Section End  -->
 
     <!-- Courses Section Start -->
     <section class="courses section">
         <div class="container">
-            <div class="row">
+            <div class="row wow bounceInUp">
                 <h2 class="section-title">Featured Courses</h2>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="courses-wrap">
