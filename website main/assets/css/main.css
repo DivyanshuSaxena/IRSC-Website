@@ -986,6 +986,7 @@ button:focus {
 }
 .activity-item .icon {
   margin: -48px 0 20px;
+  padding-top:25px;
 }
 .activity-item .fast-color i {
   background: #436eee;
@@ -2913,4 +2914,16 @@ fieldset[disabled] .btn {
 .text-danger {
   text-align: left;
   font-size: 14px;
+}
+#donaterow{
+  margin: 40px;
+  display: inline;
+  float: center;
+}
+.button-big {
+    width: 280px !important;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    padding: 30px 50px;
 }
