@@ -72,7 +72,14 @@
                     <li><a href="awards.php">Awards</a></li>
                   </ul>
                 </li>
-                <li><a href="#" data-toggle="dropdown">Blog</a></li>              
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Media <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Blog</a></li>                     
+                    <li><a href="event.php">In Media</a></li>
+                    <li><a href="event.php">Press Release</a></li>
+                  </ul>                        
+                </li>               
                 <li><a href="contact.php">Contact</a></li>
               </ul>
             </div>  
