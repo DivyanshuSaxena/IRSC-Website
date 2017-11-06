@@ -1,0 +1,27 @@
+.impa{
+  
+    text-align: center;
+    box-sizing: content-box;
+   height: 100px;
+   padding: auto;
+   padding-top: 60px;
+    background-color: #FB3640;
+    position: relative;
+    min-height: 1px;
+    color: black;
+    max-height: 130px ! important;
+
+}
+.impb{
+
+    text-align: center;
+      box-sizing: content-box;
+      height: 100px;
+   padding: auto;
+   padding-top: 60px;
+   
+    position: relative;
+    min-height: 1px;
+    color: #FB3640;
+      max-height: 130px ! important;
+}
