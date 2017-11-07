@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
@@ -39,7 +43,7 @@
     <!-- Courses Section Start -->
      <section class="courses section">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <h2 class="section-title">City Road Warriors</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -54,7 +58,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -72,7 +76,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -90,7 +94,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -109,7 +113,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>

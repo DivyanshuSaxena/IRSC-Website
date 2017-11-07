@@ -619,7 +619,7 @@ button:focus {
 .main-navigation .navbar-nav > li > a,
 .main-navigation .navbar-nav > li > a:focus {
   font-size: 14px;
-  padding: 25px 20px;
+  padding: 18px 20px;
   margin: 0px;
   outline: 0;
   color: #656565;

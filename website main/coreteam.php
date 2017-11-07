@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <!-- Color Switcher -->
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
     <!-- Owl Carousel -->
@@ -46,7 +50,7 @@
     <section class="courses section">
         <div class="container">
                 <h2 class="text-center">Core Team</h2>
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <div class="panel-body">
                 <h3 class="section-title">Publicity and Outreach Team</h3>
                 <div class="col-md-3 col-sm-6 col-xs-6">
@@ -62,7 +66,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -80,7 +84,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -98,7 +102,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -117,7 +121,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -125,84 +129,8 @@
             </div>
             </div>
             
-            <div class="row panel">
-                <h3 class="section-title">Content Team</h2>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/courses/img-1.jpg" alt="">
-                            
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="course-content" align="center">
-                                <h3><a href="courses-single.html">Executive</a></h3>
-                             
-                                <a href="#" ">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/courses/img-1.jpg" alt="">
-                            
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                               <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="course-content" align="center">
-                                <h3><a href="courses-single.html">Executive</a></h3>
-                               
-                                <a href="#" ">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/courses/img-1.jpg" alt="">
-                           
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                               <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="course-content" align="center">
-                                <h3><a href="courses-single.html">Executive</a></h3>
-                                
-                                <a href="#" ">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/courses/img-1.jpg" alt="">
-                 
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                               <p>Lorem Ipsum</p>
-                            </div>
-                            <div class="course-content" align="center">
-                                <h3><a href="courses-single.html">Executive</a></h3>
-                           
-                                <a href="#" ">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row panel">
+           
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">Design Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -217,7 +145,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -235,7 +163,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -253,7 +181,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -272,14 +200,14 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">Content Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -294,7 +222,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -312,7 +240,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -330,7 +258,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -349,14 +277,14 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">Web Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -371,7 +299,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -389,7 +317,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -407,7 +335,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -426,14 +354,14 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">App Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -448,7 +376,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -466,7 +394,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -484,7 +412,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -503,14 +431,14 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">Events Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -525,7 +453,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -543,7 +471,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -561,7 +489,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -580,14 +508,14 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">Law Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -602,7 +530,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -620,7 +548,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -638,7 +566,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -657,14 +585,14 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="row panel">
+            <div class="row panel wow fadeInUp">
                 <h3 class="section-title">Medical Team</h2>
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="courses-wrap">
@@ -679,7 +607,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                              
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -697,7 +625,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -715,7 +643,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                                 
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -734,7 +662,7 @@
                             <div class="course-content" align="center">
                                 <h3><a href="courses-single.html">Executive</a></h3>
                            
-                                <a href="#" ">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
