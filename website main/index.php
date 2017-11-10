@@ -66,7 +66,7 @@
                 <div class="col-md-12">
                   <h2 class="section-title">WHAT WE DO?</h2>
                 </div>                
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
                     <div class="activity-item">
                         <div class="icon fast-color">
                         </div>
@@ -75,7 +75,7 @@
                         <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX">
                     <div class="activity-item">
                         <div class="icon secend-color">
                         </div>
@@ -84,7 +84,7 @@
                         <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
                     <div class="activity-item">
                         <div class="icon thred-color">
                         </div>
@@ -136,8 +136,8 @@
     <section class="courses section">
         <div class="container">
             <div class="row">
-                <h2 class="section-title">Testimonials</h2>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <h2 class="section-title wow fadeInDown">Testimonials</h2>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
                     <div class="courses-wrap">
                         <div class="thumb">
                             <div class="courses-price">
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
                     <div class="courses-wrap">
                         <div class="thumb">
                             <div class="courses-price">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
                     <div class="courses-wrap">
                         <div class="thumb">
                             <div class="courses-price">
