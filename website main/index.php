@@ -117,13 +117,13 @@
     <div class="container" style="width: 100% !important; padding: 0px;">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impb"><p style="color: #FB3640; ">Lorem Ipsum</p></div>
+                <div class="impb"><p style="color: #FFFF33; ">Lorem Ipsum</p></div><!--FB3640-->
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12"  style="padding-left: 0px; padding-right: 0px;">
                 <div class="impa"><p style="color: white;">Lorem Ipsum</p></div>
             </div>  
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impb"><p style="color: #FB3640;">Lorem Ipsum</p></div>
+                <div class="impb"><p style="color: #FFFF33;">Lorem Ipsum</p></div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
                 <div class="impa"><p style="color: white;">Lorem Ipsum</p></div>

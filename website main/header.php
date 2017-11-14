@@ -41,20 +41,42 @@
                 <li class="dropdown dropdown-toggle">
                   <a href="about.php">About</a>
                 </li>
-                <li class="dropdown dropdown-toggle">
+            <!--    <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Regular Events</a></li>                     
                     <li><a href="event.php">UN Road Safety Week</a></li>
                   </ul>                        
-                </li>                 
+                </li>-->
                 <li class="dropdown dropdown-toggle">
-                  <a href="#" data-toggle="dropdown">Competitions <i class="fa fa-angle-down"></i></a>
+                  <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">iSafe</a></li>                     
-                    <li><a href="event.php">Watch the Road</a></li>
-                  </ul>                        
-                </li> 
+                    <li><a href="event-grid.php">Regular Events</a></li>                     
+                    <li><a href="event.php">UN Road Safety Week</a></li>
+                    <li class="dropdown-submenu">
+                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">iSafe</a></li>
+                        <li><a href="#">Watch the Road</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                  
+                  <!--<li class="dropdown dropdown-toggle">
+                    <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                        <li><a tabindex="-1" href="#">Action</a></li>
+                        <li><a tabindex="-1" href="#">Another action</a></li>
+                        <li class="dropdown-submenu">
+                          <a tabindex="-1" href="#">More options <i class="fa fa-angle-right"></i></a>
+                          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
+                            <li><a tabindex="-1" href="#">Action</a></li>
+                            <li><a tabindex="-1" href="#">Action</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </li>-->
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Founders</a></li>
