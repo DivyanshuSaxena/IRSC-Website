@@ -61,36 +61,55 @@
 
     <!-- Activity Area Start -->
     <section class="activity-area section">
-        <div class="container">
+        <div class="container" style="max-width: 800px;">
             <div class="row">
                 <div class="col-md-12">
-                  <h2 class="section-title">WHAT WE DO?</h2>
+                  <h2 class="section-title" style="font-size: 50px;">THE PROBLEM</h2>
                 </div>                
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
-                    <div class="activity-item">
-                        <div class="icon fast-color">
-                        </div>
-                        <h3>Awareness</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
-                        <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" ">
+                    <div class="activity-item" style="height: 200px; ">
+                        <p style="font-size: 90px; padding: 30px; color: crimson;">17</p>
+                        <p style="color: black;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX">
-                    <div class="activity-item">
-                        <div class="icon secend-color">
-                        </div>
-                        <h3>Internship</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
-                        <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
+                 <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX" >
+                    <div class="activity-item" style="height: 200px;">
+                      
+                         <p style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
+                         <p style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
+                        <p style="color: black;"><b>is the cost to India due to road crashes annually</b></p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" >
+                    <div class="activity-item" style="height: 200px;">
+                        
+                        <p style="font-size: 90px; padding: 30px; color: crimson;">46</p>
+                        <p style="color: black;"><b>children die every day on Indian roads</b></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+             <div class="row">                
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" >
+                    <div class="activity-item" style="height: 200px;">
+                     
+                        <p style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
+                        <p style="color: black;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                    </div>
+                </div>
+                 <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX" >
+                    <div class="activity-item" style="height: 200px;">
+                        <p style="font-size: 50px; padding: 5px; color: crimson;">50</p>
+                        <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p style="color: black;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                    </div>
+                </div>
+               
                 <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
-                    <div class="activity-item">
-                        <div class="icon thred-color">
-                        </div>
-                        <h3>Competition</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
-                        <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
+                    <div class="activity-item" style="height: 200px; ">
+                     <p style="font-size: 50px; padding: 5px; color: crimson;">10</p>
+                        <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p style="color: black;"><b>people have been killed in road accidents over the past decade</b></p>
                     </div>
                 </div>
             </div>
