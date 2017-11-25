@@ -153,73 +153,17 @@
 
     <!-- Courses Section Start -->
     <section class="courses section">
-        <div class="container">
+        <div class="container" style="width: 100% !important;">
             <div class="row">
-                <h2 class="section-title wow fadeInDown">Testimonials</h2>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <div class="courses-price">
-                                <p class="years">Duration: 3 Years</p>
-                                <span class="price">$20000</span>
-                            </div>
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <span class="course-instructor">by <a href="#">Maria Bella</a>, <a href="#">Jana Smith</a></span>
-                                <img src="assets/img/courses/thumb-teacher-1.jpg" alt="">
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="courses-single.html">Computer Science</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed. Optio, reprehenderit, ex.Repellendus,…</p>
-                                <a href="#" class="btn btn-common btn-sm">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
+            <div style="max-width: 50%; display: inline-block; float: left; margin-left: 20px;"><iframe width="600" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
+            <div style="float:left; max-width: 40%; position: relative; margin-left: 30px;" >
+            <ul>
+            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p> </li>
+            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
+            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
+            </ul>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <div class="courses-price">
-                                
-                            </div>
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <span class="course-instructor">by <a href="#">Jana Smith</a>, <a href="#">Kiwhi Leonard</a></span>
-                                <img src="assets/img/courses/thumb-teacher-2.jpg" alt="">
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="courses-single.html">Micro Biology</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed. Optio, reprehenderit, ex.Repellendus,…</p>
-                                <a href="#" class="btn btn-common btn-sm">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <div class="courses-price">
-                                <p class="years">Duration: 3 Years</p>
-                                <span class="price">$20000</span>
-                            </div>
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <span class="course-instructor">by <a href="#">jana Smith</a>, <a href="#">Maria Bella</a></span>
-                                <img src="assets/img/courses/thumb-teacher-3.jpg" alt="">
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="courses-single.html">Global Economic</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed. Optio, reprehenderit, ex.Repellendus,…</p>
-                                <a href="#" class="btn btn-common btn-sm">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <a href="courses-list.html">More Courses <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
+        </div></div>
     </section>
     <!-- Courses Section End -->
 
