@@ -53,8 +53,8 @@
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Regular Events</a></li>                     
                     <li><a href="event.php">UN Road Safety Week</a></li>
-                    <li class="dropdown-submenu">
-                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
+                    <li class="dropdown">
+                      <a href="#" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
                       <ul class="dropdown-menu">
                         <li><a href="#">iSafe</a></li>
                         <li><a href="#">Watch the Road</a></li>

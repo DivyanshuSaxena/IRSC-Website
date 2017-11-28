@@ -353,7 +353,7 @@
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script> 
     <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
     <script type="text/javascript" src="assets/js/contact-form-script.js"></script>  
-    
+    <script type="text/javascript" src="assets/js/typed.js"></script>
     <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>
 
