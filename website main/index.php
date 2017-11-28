@@ -6,6 +6,9 @@
     <title>Bright – Bootstrap HTML5 Education Template</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Normalize Style -->
@@ -16,6 +19,10 @@
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <script src="assets/js/wow.js"></script>
       <script>
         new WOW().init();
@@ -166,6 +173,51 @@
         </div></div>
     </section>
     <!-- Courses Section End -->
+    
+    <!-- collaborators start -->
+    <div class="container">
+  <h3>Collaborators</h3>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+      </div>
+
+      <div class="item">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+      </div>
+    
+      <div class="item">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+      </div>
+    </div>
+
+    <!-- Left and right controls 
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+  </div>
+</div>
+
+
+    <!-- collaborators end -->
 
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
