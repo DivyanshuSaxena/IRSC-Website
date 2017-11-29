@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.1/typeit.js"></script>
 
     <script src="assets/js/wow.js"></script>
       <script>
@@ -39,6 +40,7 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/imp.css">
+    <link rel="stylesheet" href="assets/css/added.css">
 
 
     <!-- Color CSS Styles  -->
@@ -51,16 +53,45 @@
 
 
     <!-- Start Content Section -->
-    <section id="content" class="error-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-			<h1>We Are <span class="typed"></span></h1>
-          </div>
-        </div>
+    <section id="content">
+      <div class="container-fluid">
+      	<div class="typed">
+			<h1 class="text-center">We <span class="element"></span></h1>
+      	</div>
       </div>
     </section>
     <!-- End Content Section  -->
+
+   <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mainCarousel" data-slide-to="1"></li>
+      <li data-target="#mainCarousel" data-slide-to="2"></li>
+      <li data-target="#mainCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner front-carousel">
+
+      <div class="item active">
+        <img src="assets/img/background/carousel1.jpg">
+      </div>
+
+      <div class="item">
+        <img src="assets/img/background/carousel2.jpg">
+      </div>
+    
+      <div class="item">
+        <img src="assets/img/background/carousel3.jpg">
+      </div>
+  	  
+
+      <div class="item">
+        <img src="assets/img/background/carousel4.jpg">
+      </div>
+    </div>
+   </div>
  
 
     <!-- Activity Area Start -->
@@ -121,23 +152,9 @@
     </section>
     <!-- Activity Area End -->
 
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Content Section  -->
-
     <!-- Impact Section  Start-->
-    <div class="container" style="width: 100% !important; padding: 0px;">
+    <div class="container-fluid" style="padding: 0px;">
+        	<h1 class="text-center">Our Impact</h1>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
                 <div class="impb"><p style="color: #FFFF33; ">Lorem Ipsum</p></div><!--FB3640-->
@@ -157,7 +174,7 @@
 
     <!-- Courses Section Start -->
     <section class="courses section">
-        <div class="container" style="width: 100% !important;">
+        <div class="container-fluid">
             <div class="row">
             <div style="max-width: 50%; display: inline-block; float: left; margin-left: 20px;"><iframe width="600" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
             <div style="float:left; max-width: 40%; position: relative; margin-left: 30px;" >
@@ -365,47 +382,15 @@
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script> 
     <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
     <script type="text/javascript" src="assets/js/contact-form-script.js"></script>  
-    <script type="text/javascript" src="assets/js/defaults.js"></script>
-    <script type="text/javascript" src="assets/js/initializer.js"></script> 
-    <script type="text/javascript" src="assets/js/html-parser.js"></script>  
-    <script type="text/javascript" src="assets/js/typed.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/typing_animations.js"></script> -->
     <script type="text/javascript">
-    $(function(){
-	$(".typed").typed({
-		strings: ["Developers.", "Designers.", "People."],
-		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-		stringsElement: null,
-		// typing speed
-		typeSpeed: 30,
-		// time before typing starts
-		startDelay: 1200,
-		// backspacing speed
-		backSpeed: 20,
-		// time before backspacing
-		backDelay: 500,
-		// loop
-		loop: true,
-		// false = infinite
-		loopCount: 5,
-		// show cursor
-		showCursor: false,
-		// character for cursor
-		cursorChar: "|",
-		// attribute to type (null == text)
-		attr: null,
-		// either html or text
-		contentType: 'html',
-		// call when done callback function
-		callback: function() {},
-		// starting callback function before each string
-		preStringTyped: function() {},
-		//callback for every typed string
-		onStringTyped: function() {},
-		// callback for reset
-		resetCallback: function() {} 
-	});
-});
+    	new TypeIt('.element', {
+    	 strings: ["Create Awareness","Involve & Educate the Youth","Design, Ideate and Develop","Are the Trend Setters","Are Indian Road Safety Campaign"],
+    	 breakLines: false,
+    	 loop: true,
+    	 speed: 75,
+    	 nextStringDelay: 800,
+    	 deleteSpeed: 25
+		});
     </script>
     <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>

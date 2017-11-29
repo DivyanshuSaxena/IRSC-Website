@@ -964,7 +964,6 @@ button:focus {
    Activity Area Start
    ========================================================================== */
 .activity-area {
-  background: url(../img/background/bg.jpg) #eeeeee;
   background-size: cover;
   padding: 60px 0 164px;
 }
