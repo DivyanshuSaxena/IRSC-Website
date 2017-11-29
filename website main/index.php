@@ -55,10 +55,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
+			<h1>We Are <span class="typed"></span></h1>
           </div>
         </div>
       </div>
@@ -343,7 +340,7 @@
     <!-- NewsLetter Section End -->
 <section class="donate">
     <div class ="row">
-            <button class="btn btn-common button-big" id="donaterow" type="submit" style="margin-left: 375px;">Donate</button>
+            <button class="btn btn-common button-big" id="donaterow" type="submit">Donate</button>
             <button class="btn btn-common button-big" id="donaterow" type="submit">Donate</button>
     </div>
 </section>
@@ -368,9 +365,49 @@
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script> 
     <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
     <script type="text/javascript" src="assets/js/contact-form-script.js"></script>  
+    <script type="text/javascript" src="assets/js/defaults.js"></script>
+    <script type="text/javascript" src="assets/js/initializer.js"></script> 
+    <script type="text/javascript" src="assets/js/html-parser.js"></script>  
     <script type="text/javascript" src="assets/js/typed.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/typing_animations.js"></script> -->
+    <script type="text/javascript">
+    $(function(){
+	$(".typed").typed({
+		strings: ["Developers.", "Designers.", "People."],
+		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+		stringsElement: null,
+		// typing speed
+		typeSpeed: 30,
+		// time before typing starts
+		startDelay: 1200,
+		// backspacing speed
+		backSpeed: 20,
+		// time before backspacing
+		backDelay: 500,
+		// loop
+		loop: true,
+		// false = infinite
+		loopCount: 5,
+		// show cursor
+		showCursor: false,
+		// character for cursor
+		cursorChar: "|",
+		// attribute to type (null == text)
+		attr: null,
+		// either html or text
+		contentType: 'html',
+		// call when done callback function
+		callback: function() {},
+		// starting callback function before each string
+		preStringTyped: function() {},
+		//callback for every typed string
+		onStringTyped: function() {},
+		// callback for reset
+		resetCallback: function() {} 
+	});
+});
+    </script>
     <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>
-
   </body>
 </html>
