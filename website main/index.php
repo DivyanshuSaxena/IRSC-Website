@@ -6,6 +6,9 @@
     <title>Bright – Bootstrap HTML5 Education Template</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Normalize Style -->
@@ -16,6 +19,10 @@
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <script src="assets/js/wow.js"></script>
       <script>
         new WOW().init();
@@ -61,11 +68,12 @@
 
     <!-- Activity Area Start -->
     <section class="activity-area section">
-        <div class="container">
+        <div class="container" style="max-width: 800px;">
             <div class="row">
                 <div class="col-md-12">
-                  <h2 class="section-title">WHAT WE DO?</h2>
+                  <h2 class="section-title" style="font-size: 50px;">THE PROBLEM</h2>
                 </div>                
+<<<<<<< HEAD
                 <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-bottom: 2px">
                     <div class="activity-item">
                         <div class="icon fast-color">
@@ -113,6 +121,52 @@
                         </div>
                         <h3>Competition</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
+=======
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" ">
+                    <div class="activity-item" style="height: 200px; ">
+                        <p style="font-size: 90px; padding: 30px; color: crimson;">17</p>
+                        <p style="color: black;"><b>people die every hour on Indian Roads</b></p>
+                    </div>
+                </div>
+                 <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX" >
+                    <div class="activity-item" style="height: 200px;">
+                      
+                         <p style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
+                         <p style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
+                        <p style="color: black;"><b>is the cost to India due to road crashes annually</b></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" >
+                    <div class="activity-item" style="height: 200px;">
+                        
+                        <p style="font-size: 90px; padding: 30px; color: crimson;">46</p>
+                        <p style="color: black;"><b>children die every day on Indian roads</b></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+             <div class="row">                
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" >
+                    <div class="activity-item" style="height: 200px;">
+                     
+                        <p style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
+                        <p style="color: black;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                    </div>
+                </div>
+                 <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX" >
+                    <div class="activity-item" style="height: 200px;">
+                        <p style="font-size: 50px; padding: 5px; color: crimson;">50</p>
+                        <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p style="color: black;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
+                    <div class="activity-item" style="height: 200px; ">
+                     <p style="font-size: 50px; padding: 5px; color: crimson;">10</p>
+                        <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p style="color: black;"><b>people have been killed in road accidents over the past decade</b></p>
+>>>>>>> d3af805a1ae1e71a8a1904cb0bc8da1098cd1c9a
                     </div>
                 </div>
             </div>
@@ -157,75 +211,64 @@
 
     <!-- Courses Section Start -->
     <section class="courses section">
-        <div class="container">
+        <div class="container" style="width: 100% !important;">
             <div class="row">
-                <h2 class="section-title wow fadeInDown">Testimonials</h2>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <div class="courses-price">
-                                <p class="years">Duration: 3 Years</p>
-                                <span class="price">$20000</span>
-                            </div>
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <span class="course-instructor">by <a href="#">Maria Bella</a>, <a href="#">Jana Smith</a></span>
-                                <img src="assets/img/courses/thumb-teacher-1.jpg" alt="">
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="courses-single.html">Computer Science</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed. Optio, reprehenderit, ex.Repellendus,…</p>
-                                <a href="#" class="btn btn-common btn-sm">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
+            <div style="max-width: 50%; display: inline-block; float: left; margin-left: 20px;"><iframe width="600" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
+            <div style="float:left; max-width: 40%; position: relative; margin-left: 30px;" >
+            <ul>
+            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p> </li>
+            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
+            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
+            </ul>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <div class="courses-price">
-                                
-                            </div>
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <span class="course-instructor">by <a href="#">Jana Smith</a>, <a href="#">Kiwhi Leonard</a></span>
-                                <img src="assets/img/courses/thumb-teacher-2.jpg" alt="">
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="courses-single.html">Micro Biology</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed. Optio, reprehenderit, ex.Repellendus,…</p>
-                                <a href="#" class="btn btn-common btn-sm">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
-                    <div class="courses-wrap">
-                        <div class="thumb">
-                            <div class="courses-price">
-                                <p class="years">Duration: 3 Years</p>
-                                <span class="price">$20000</span>
-                            </div>
-                        </div>
-                        <div class="course-detail-wrap">
-                            <div class="teacher-wrap">
-                                <span class="course-instructor">by <a href="#">jana Smith</a>, <a href="#">Maria Bella</a></span>
-                                <img src="assets/img/courses/thumb-teacher-3.jpg" alt="">
-                            </div>
-                            <div class="course-content">
-                                <h3><a href="courses-single.html">Global Economic</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed. Optio, reprehenderit, ex.Repellendus,…</p>
-                                <a href="#" class="btn btn-common btn-sm">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <a href="courses-list.html">More Courses <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
+        </div></div>
     </section>
     <!-- Courses Section End -->
+    
+    <!-- collaborators start -->
+    <div class="container">
+  <h3>Collaborators</h3>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+      </div>
+
+      <div class="item">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
+      </div>
+    
+      <div class="item">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+      </div>
+    </div>
+
+    <!-- Left and right controls 
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+  </div>
+</div>
+
+
+    <!-- collaborators end -->
 
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
@@ -318,11 +361,7 @@
               </div>
             </div>
 
-            <!--<div class="col-md-5 col-sm-5 col-xl-12">
-              <div class="featured-thumb">
-                <img src="assets/img/features/why.png" alt="">
-              </div>
-            </div>-->
+            
 
           </div>
         </div>
@@ -337,8 +376,7 @@
           <ul class="nav nav-pills">
             <li class="active"><a data-toggle="pill" href="#home" style="margin-bottom: 10px">Times of India</a></li>
             <li class=><a data-toggle="pill" href="#menu1" style="margin-bottom: 10px">Motoroids</a></li>
-            <!--<li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
-            <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>-->
+            
           </ul>
     
           <div class="tab-content">
@@ -352,14 +390,7 @@
               
               <p>The activities under iSAFE’17 have been organised keeping in view the ideology of, “making them do, what they like to do” to make a sustainable impact. Holistically, the impacts of the championship would include Technical innovations, Medical Research, 500+ sq. km on ground level implementation to improved road conditions and improved emergency care.</p>
             </div>
-            <!--<div id="menu2" class="tab-pane fade">
-              <h3>Menu 2</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            </div>
-            <div id="menu3" class="tab-pane fade">
-              <h3>Menu 3</h3>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            </div>--> 
+            
         </div>
       </div>  
     </section> 
@@ -393,40 +424,6 @@
     </div>
 </section>
    
-
-    <!-- Media 
-    <div class="row">
-      <div class="col-md-4">
-          <div class="thumbnail">
-            <a href="#">
-              <div class="caption">
-                <p>Lorem ipsum...</p>
-              </div>
-              <img src="assets\img\media\img2.jpg" alt="Nature" style="width:30%">
-            </a>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class="thumbnail">
-            <a href="#">
-              <div class="caption">
-                <p>Lorem ipsum...</p>
-              </div>
-              <img src="assets\img\media\img2.jpg" alt="Nature" style="width:30%">
-            </a>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class="thumbnail">
-            <a href="#">
-              <div class="caption">
-                <p>Lorem ipsum...</p>
-              </div>
-              <img src="assets\img\media\img2.jpg" alt="Nature" style="width:30%">
-            </a>
-          </div>
-      </div>
-    </div>-->
 
  
     <?php include './footer.php' ?>
