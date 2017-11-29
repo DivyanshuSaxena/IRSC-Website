@@ -103,7 +103,7 @@
                 <div class="col-md-12">
                   <h2 class="section-title" style="font-size: 40px;">THE PROBLEM</h2>
                 </div>                
-                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" ">
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
                     <div class="activity-item" style="height: 200px; ">
                         <p class="problem-font" style="font-size: 90px; padding: 30px;color: crimson;">17</p>
                         <p class="problem-font" style="color: black;"><b>people die every hour on Indian Roads</b></p>
@@ -133,8 +133,8 @@
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
                     <div class="activity-item" style="height: 200px;">
-                        <p style="font-size: 50px; padding: 5px; color: crimson;">50</p>
-                        <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">50</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
                         <p style="color: black;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
                     </div>
                 </div>
@@ -148,7 +148,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>       
+    
     <!-- Activity Area End -->
 
     <!-- Impact Section  Start-->
@@ -295,16 +296,41 @@
               </div>
             </div>
 
-            <div class="col-md-5 col-sm-5 col-xl-12">
-              <div class="featured-thumb">
-                <img src="assets/img/features/why.png" alt="">
-              </div>
-            </div>
+            
 
           </div>
         </div>
     </div>
-    <!-- Why Choose section End -->  
+    <!-- Why Choose section End --> 
+
+    <!-- News Coverage -->
+    <section class="News">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title">Media Coverage</h2>
+          <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#home" style="margin-bottom: 10px">Times of India</a></li>
+            <li class=><a data-toggle="pill" href="#menu1" style="margin-bottom: 10px">Motoroids</a></li>
+            
+          </ul>
+    
+          <div class="tab-content">
+            
+              <div id="home" class="tab-pane fade in active">
+
+                <p>“We conducted the survey to assess what problems relating to ambulances people usually face in golden ho ur. Some of the police personnel deployed in PCR vans, who participated in the survey , said most of the time they bring road accident victims to hospitals and trauma care centres,“ said Amar Srivastava.</p>
+              </div>
+            
+            <div id="menu1" class="tab-pane fade">
+              
+              <p>The activities under iSAFE’17 have been organised keeping in view the ideology of, “making them do, what they like to do” to make a sustainable impact. Holistically, the impacts of the championship would include Technical innovations, Medical Research, 500+ sq. km on ground level implementation to improved road conditions and improved emergency care.</p>
+            </div>
+            
+        </div>
+      </div>  
+    </section> 
+
+    <!-- News Coverage End --> 
 
     <!-- NewsLetter Section Start -->
     <section class="newsletter">
@@ -338,14 +364,17 @@
     	</div>
 	</div>
 </section>
-   <?php include './footer.php' ?>
+   
+
+ 
+    <?php include './footer.php' ?>
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
       <i class="fa fa-arrow-up"></i>
     </a>
 
- 
+     
 
     <!-- jQuery  -->
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>

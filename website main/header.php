@@ -41,46 +41,35 @@
                 <li class="dropdown dropdown-toggle">
                   <a href="about.php">About</a>
                 </li>
-            <!--    <li class="dropdown dropdown-toggle">
-                  <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">Regular Events</a></li>                     
-                    <li><a href="event.php">UN Road Safety Week</a></li>
-                  </ul>                        
-                </li>-->
+
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Regular Events</a></li>                     
                     <li><a href="event.php">UN Road Safety Week</a></li>
-                    <li class="dropdown">
-                      <a href="#" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
-                      <ul class="dropdown-menu">
+                    <li class="dropdown dropdown-toggle">
+                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
+                      <ul class="dropdown-menu pull">
                         <li><a href="#">iSafe</a></li>
                         <li><a href="#">Watch the Road</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
-                  
-                  <!--<li class="dropdown dropdown-toggle">
-                    <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
-                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                        <li><a tabindex="-1" href="#">Action</a></li>
-                        <li><a tabindex="-1" href="#">Another action</a></li>
-                        <li class="dropdown-submenu">
-                          <a tabindex="-1" href="#">More options <i class="fa fa-angle-right"></i></a>
-                          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
-                            <li><a tabindex="-1" href="#">Action</a></li>
-                            <li><a tabindex="-1" href="#">Action</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                  </li>-->
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Technical Arm</a></li>
+                    <li><a href="#">Medical Arm</a></li>
+                    <li><a href="#">Awareness Arm</a></li>
+                    <li><a href="#">Workshop/Service Arm</a></li>
+                    <li><a href="#">Policy Arm</a></li>
+                    <li><a href="#">Law Arm</a></li>
+                  </ul>
+                </li>
+
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">Founders</a></li>
-                    <li><a href="arms.php">Arms</a></li>                     
+                    <li><a href="event-grid.php">Founders</a></li>                     
                     <li><a href="coreteam.php">Core Team</a></li>            
                     <li><a href="crw.php">CRWs</a></li>                  
                     <li><a href="collegechapter.php">College Chapters</a></li>                  
@@ -88,7 +77,7 @@
                   </ul>
                 </li>   
                 <li class="dropdown"><a href="gallery.php">Gallery</a></li>
-                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Achievements <i class="fa fa-angle-down"></i></a>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="projects.php">Successful Projects</a></li>
                     <li><a href="awards.php">Awards</a></li>
@@ -102,7 +91,12 @@
                     <li><a href="event.php">Press Release</a></li>
                   </ul>                        
                 </li>               
-                <li><a href="contact.php">Contact</a></li>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Join Us</a></li>
+                    <li><a href="awards.php">Collabarate</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>  
              <!-- Form for navbar search area -->
