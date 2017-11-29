@@ -66,36 +66,59 @@
                 <div class="col-md-12">
                   <h2 class="section-title">WHAT WE DO?</h2>
                 </div>                
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
+                <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-bottom: 2px">
                     <div class="activity-item">
                         <div class="icon fast-color">
                         </div>
                         <h3>Awareness</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
-                        <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX">
+                <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-bottom: 2px">
                     <div class="activity-item">
                         <div class="icon secend-color">
                         </div>
                         <h3>Internship</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
-                        <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
+                <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-bottom: 2px">
                     <div class="activity-item">
                         <div class="icon thred-color">
                         </div>
                         <h3>Competition</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
-                        <a class="btn btn-rm btn-common" href="courses-grid.html">Explore</a>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-top: 2px">
+                    <div class="activity-item">
+                        <div class="icon fast-color">
+                        </div>
+                        <h3>Awareness</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-top: 2px">
+                    <div class="activity-item">
+                        <div class="icon secend-color">
+                        </div>
+                        <h3>Internship</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12" style="padding-left :2px; padding-right: 2px; padding-top: 2px">
+                    <div class="activity-item">
+                        <div class="icon thred-color">
+                        </div>
+                        <h3>Competition</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla debitis vitae temporibus enim sed.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section>       
+    
     <!-- Activity Area End -->
 
     <!-- Start Content Section -->
@@ -295,16 +318,53 @@
               </div>
             </div>
 
-            <div class="col-md-5 col-sm-5 col-xl-12">
+            <!--<div class="col-md-5 col-sm-5 col-xl-12">
               <div class="featured-thumb">
                 <img src="assets/img/features/why.png" alt="">
               </div>
-            </div>
+            </div>-->
 
           </div>
         </div>
     </div>
-    <!-- Why Choose section End -->  
+    <!-- Why Choose section End --> 
+
+    <!-- News Coverage -->
+    <section class="News">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title">Media Coverage</h2>
+          <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#home" style="margin-bottom: 10px">Times of India</a></li>
+            <li class=><a data-toggle="pill" href="#menu1" style="margin-bottom: 10px">Motoroids</a></li>
+            <!--<li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
+            <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>-->
+          </ul>
+    
+          <div class="tab-content">
+            
+              <div id="home" class="tab-pane fade in active">
+
+                <p>“We conducted the survey to assess what problems relating to ambulances people usually face in golden ho ur. Some of the police personnel deployed in PCR vans, who participated in the survey , said most of the time they bring road accident victims to hospitals and trauma care centres,“ said Amar Srivastava.</p>
+              </div>
+            
+            <div id="menu1" class="tab-pane fade">
+              
+              <p>The activities under iSAFE’17 have been organised keeping in view the ideology of, “making them do, what they like to do” to make a sustainable impact. Holistically, the impacts of the championship would include Technical innovations, Medical Research, 500+ sq. km on ground level implementation to improved road conditions and improved emergency care.</p>
+            </div>
+            <!--<div id="menu2" class="tab-pane fade">
+              <h3>Menu 2</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>--> 
+        </div>
+      </div>  
+    </section> 
+
+    <!-- News Coverage End --> 
 
     <!-- NewsLetter Section Start -->
     <section class="newsletter">
@@ -332,14 +392,51 @@
             <button class="btn btn-common button-big" id="donaterow" type="submit">Donate</button>
     </div>
 </section>
-   <?php include './footer.php' ?>
+   
+
+    <!-- Media 
+    <div class="row">
+      <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+              <img src="assets\img\media\img2.jpg" alt="Nature" style="width:30%">
+            </a>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+              <img src="assets\img\media\img2.jpg" alt="Nature" style="width:30%">
+            </a>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+              <img src="assets\img\media\img2.jpg" alt="Nature" style="width:30%">
+            </a>
+          </div>
+      </div>
+    </div>-->
+
+ 
+    <?php include './footer.php' ?>
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
       <i class="fa fa-arrow-up"></i>
     </a>
 
- 
+     
 
     <!-- jQuery  -->
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
