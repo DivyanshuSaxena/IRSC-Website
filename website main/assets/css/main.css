@@ -119,7 +119,7 @@ button:focus {
   color: #fff;
 }
 .section {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .input-group-btn button {
   padding: 11px 20px;
@@ -965,7 +965,7 @@ button:focus {
    ========================================================================== */
 .activity-area {
   background-size: cover;
-  padding: 60px 0 164px;
+  /*padding: 60px 0 164px;*/
 }
 .activity-item {
   padding: 20px 15px 30px;
@@ -2914,15 +2914,6 @@ fieldset[disabled] .btn {
   text-align: left;
   font-size: 14px;
 }
-#donaterow{
-  margin: 40px;
-  display: inline;
-  float: center;
-}
 .button-big {
-    width: 280px !important;
-    text-align: center;
-    padding: 10px;
-    display: block;
     padding: 30px 50px;
 }

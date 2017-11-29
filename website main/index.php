@@ -7,8 +7,10 @@
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Normalize Style -->
@@ -99,40 +101,37 @@
         <div class="container" style="max-width: 800px;">
             <div class="row">
                 <div class="col-md-12">
-                  <h2 class="section-title" style="font-size: 50px;">THE PROBLEM</h2>
+                  <h2 class="section-title" style="font-size: 40px;">THE PROBLEM</h2>
                 </div>                
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" ">
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" ">
                     <div class="activity-item" style="height: 200px; ">
-                        <p style="font-size: 90px; padding: 30px; color: crimson;">17</p>
-                        <p style="color: black;"><b>people die every hour on Indian Roads</b></p>
+                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: crimson;">17</p>
+                        <p class="problem-font" style="color: black;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX" >
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
                     <div class="activity-item" style="height: 200px;">
                       
-                         <p style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
-                         <p style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
+                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
+                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
                         <p style="color: black;"><b>is the cost to India due to road crashes annually</b></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" >
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
                     <div class="activity-item" style="height: 200px;">
                         
-                        <p style="font-size: 90px; padding: 30px; color: crimson;">46</p>
-                        <p style="color: black;"><b>children die every day on Indian roads</b></p>
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">46</p>
+                        <p class="problem-font" style="color: black;"><b>children die every day on Indian roads</b></p>
                     </div>
-                </div>
-            </div>
-            <br>
-             <div class="row">                
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" >
+                </div>              
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
                     <div class="activity-item" style="height: 200px;">
-                     
-                        <p style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
+                    
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
                         <p style="color: black;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-6 col-xs-12 wow flipInX" >
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
                     <div class="activity-item" style="height: 200px;">
                         <p style="font-size: 50px; padding: 5px; color: crimson;">50</p>
                         <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
@@ -140,10 +139,10 @@
                     </div>
                 </div>
                
-                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
                     <div class="activity-item" style="height: 200px; ">
-                     <p style="font-size: 50px; padding: 5px; color: crimson;">10</p>
-                        <p style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">10</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
                         <p style="color: black;"><b>people have been killed in road accidents over the past decade</b></p>
                     </div>
                 </div>
@@ -154,19 +153,19 @@
 
     <!-- Impact Section  Start-->
     <div class="container-fluid" style="padding: 0px;">
-        	<h1 class="text-center">Our Impact</h1>
+        	<h1 class="text-center" style="font-size: 40px;">Our Impact</h1>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impb"><p style="color: #FFFF33; ">Lorem Ipsum</p></div><!--FB3640-->
+                <div class="impb"><p>Lorem Ipsum</p></div><!--FB3640-->
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12"  style="padding-left: 0px; padding-right: 0px;">
-                <div class="impa"><p style="color: white;">Lorem Ipsum</p></div>
+                <div class="impa"><p>Lorem Ipsum</p></div>
             </div>  
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impb"><p style="color: #FFFF33;">Lorem Ipsum</p></div>
+                <div class="impb"><p>Lorem Ipsum</p></div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impa"><p style="color: white;">Lorem Ipsum</p></div>
+                <div class="impa"><p>Lorem Ipsum</p></div>
             </div>
         </div>
     </div>
@@ -174,26 +173,25 @@
 
     <!-- Courses Section Start -->
     <section class="courses section">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-            <div style="max-width: 50%; display: inline-block; float: left; margin-left: 20px;"><iframe width="600" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
-            <div style="float:left; max-width: 40%; position: relative; margin-left: 30px;" >
+            <div class="col-md-8 gadkari-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
+            <div class="col-md-4" >
             <ul>
             	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p> </li>
             	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
             	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
             </ul>
                 </div>
-        </div></div>
+        	</div>
+    	</div>
     </section>
     <!-- Courses Section End -->
     
     <!-- collaborators start -->
     <div class="container">
   <h3>Collaborators</h3>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-   
-
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
@@ -217,36 +215,9 @@
         <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
       </div>
     </div>
-
-    <!-- Left and right controls 
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>-->
   </div>
 </div>
-
-
     <!-- collaborators end -->
-
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Content Section  -->
 
     <!-- Why Choose section Start -->
     <div class="why-choose">
@@ -356,10 +327,16 @@
     </section>
     <!-- NewsLetter Section End -->
 <section class="donate">
-    <div class ="row">
-            <button class="btn btn-common button-big" id="donaterow" type="submit">Donate</button>
-            <button class="btn btn-common button-big" id="donaterow" type="submit">Donate</button>
-    </div>
+	<div class="container">
+    	<div class ="row">
+    		<div class="col-xs-6 donaterow">
+    			<button class="btn btn-common donate-button" type="submit" style="float: right;">Donate</button>
+    		</div>
+    		<div class="col-xs-6 donaterow">
+    			<button class="btn btn-common donate-button" type="submit" style="float: left;">Donate</button>
+    		</div>
+    	</div>
+	</div>
 </section>
    <?php include './footer.php' ?>
 
