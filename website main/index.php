@@ -318,7 +318,7 @@
             
               <div id="home" class="tab-pane fade in active">
 
-                <p>“We conducted the survey to assess what problems relating to ambulances people usually face in golden ho ur. Some of the police personnel deployed in PCR vans, who participated in the survey , said most of the time they bring road accident victims to hospitals and trauma care centres,“ said Amar Srivastava.</p>
+                <p>“We conducted the survey to assess what problems relating to ambulances people usually face in golden ho ur. Some of the police personnel deployed in PCR vans, who participated in the survey , said most of the time they bring road accident victims to hospitals and trauma care centres,” said Amar Srivastava.</p>
               </div>
             
             <div id="menu1" class="tab-pane fade">
