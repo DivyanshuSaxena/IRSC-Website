@@ -152,6 +152,62 @@
     
     <!-- Activity Area End -->
 
+
+    <section class="activity-area section">
+        <div class="container" style="max-width: 800px;">
+            <div class="row">
+                <div class="col-md-12">
+                  <h2 class="section-title" style="font-size: 40px;">OUR WORK</h2>
+                </div>                
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
+                    <div class="activity-item" style="height: 200px; ">
+                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: crimson;">17</p>
+                        <p class="problem-font" style="color: black;"><b>people die every hour on Indian Roads</b></p>
+                    </div>
+                </div>
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
+                    <div class="activity-item" style="height: 200px;">
+                      
+                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
+                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
+                        <p style="color: black;"><b>is the cost to India due to road crashes annually</b></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
+                    <div class="activity-item" style="height: 200px;">
+                        
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">46</p>
+                        <p class="problem-font" style="color: black;"><b>children die every day on Indian roads</b></p>
+                    </div>
+                </div>              
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
+                    <div class="activity-item" style="height: 200px;">
+                    
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
+                        <p style="color: black;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                    </div>
+                </div>
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
+                    <div class="activity-item" style="height: 200px;">
+                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">50</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p style="color: black;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
+                    <div class="activity-item" style="height: 200px; ">
+                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">10</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
+                        <p style="color: black;"><b>people have been killed in road accidents over the past decade</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+
     <!-- Impact Section  Start-->
     <div class="container-fluid" style="padding: 0px;">
         	<h1 class="text-center" style="font-size: 40px;">Our Impact</h1>
