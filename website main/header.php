@@ -46,7 +46,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="technical.php">Technical Arm</a></li>
                     <li><a href="medical.php">Medical Arm</a></li>
-                    <li><a href="awareness.php">Workshop Arm</a></li>
+                    <li><a href="awareness.php">Awareness Arm</a></li>
                     <li><a href="service.php">Service Arm</a></li>
                     <li><a href="policy.php">Policy Arm</a></li>
                     <li><a href="law.php">Law Arm</a></li>

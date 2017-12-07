@@ -54,58 +54,15 @@
 
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
-      <div class="container">
-      <center>
-         <div class="row" style="width: 800px;text-align: left;">
+      <div class="container"><center>
+         <div class="row" style="width: 800px; text-align: center;">
             <h2 class="text-center">About</h2>
-            <p>
-Working with the Supreme Court Committee on Road Safety and with students from various Law colleges in India, we intend to make the Law related to various aspects of road-safety accessible to all.<br>
-
+            <p>Working with the Supreme Court Committee on Road Safety and with students from various Law colleges in India, we intend to make the Law related to various aspects of road-safety accessible to all.
 </p>
         </div></center>
-         
-        </div>
+       
         <div class="row">
-          <h2 class="text-center">Present Projects</h2>
-          <div class="row wow fadeIn">
-                <div class="col-lg-5 col-lg-offset-1">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(11).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Technical Internships</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(25).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Road Accidents Data Portal</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-          <h2 class="text-center">Past Projects</h2>
+          <h2 class="text-center">Our Projects</h2>
           <div class="row wow fadeIn">
                 <div class="col-lg-5 col-lg-offset-1">
                     <div class="card">
