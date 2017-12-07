@@ -299,14 +299,12 @@
               </div>
             
             <div id="menu1" class="tab-pane fade">
-              
               <p>The activities under iSAFE’17 have been organised keeping in view the ideology of, “making them do, what they like to do” to make a sustainable impact. Holistically, the impacts of the championship would include Technical innovations, Medical Research, 500+ sq. km on ground level implementation to improved road conditions and improved emergency care.</p>
             </div>
             
         </div>
       </div>  
     </section> 
-
     <!-- News Coverage End --> 
 
     <!-- NewsLetter Section Start -->

@@ -1,182 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
-    <!-- Bootstrap CSS -->    
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Main Style -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Normalize Style -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <!-- Fonts Awesome -->
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <!-- Color Switcher -->
-    <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
-    <!-- Rev Slider Css -->
-    <link rel="stylesheet" href="assets/extras/settings.css" type="text/css">
-    <!-- Nivo Lightbox Css -->
-    <link rel="stylesheet" href="assets/extras/nivo-lightbox.css" type="text/css">
-    <!-- Slicknav Css -->
-    <link rel="stylesheet" href="assets/css/slicknav.css" type="text/css">
-    <!-- Responsive Style -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- Color CSS Styles  -->
-    <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
+<!-- Header area wrapper Starts -->
+    <header id="header-wrap">
 
-  </head>
-  <body>
-    
-   <?php include './header.php' ?>
-
-    <!-- Page Header Start -->
-    <div class="page-header" style="background: url(assets/img/banner1.jpg);">
-      <div class="container">
-        <div class="row">         
-          <div class="col-md-12">
-            <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Technical Arm</h2>
-              <a href="index.html">Home</a>
-              <span>/</span>
-              <span class="current">Domains</span>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-default main-navigation" role="navigation" data-spy="affix" data-offset-top="50">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand align-middle" href="index.php"><img src="assets/img/logo.png" alt=""></a>
             </div>
+            <!-- Brand End -->
+
+            <!-- Search Icon -->
+            <div class="header-search pull-right">
+                <a class="open-search">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>  
+            <!-- Collapse Navbar -->
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-toggle">
+                  <a href="about.php">About</a>
+                </li>
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Regular Events</a></li>                     
+                    <li><a href="event.php">UN Road Safety Week</a></li>
+                    <li class="dropdown dropdown-toggle">
+                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
+                      <ul class="dropdown-menu pull">
+                        <li><a href="#">iSafe</a></li>
+                        <li><a href="#">Watch the Road</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="technical.php">Technical Arm</a></li>
+                    <li><a href="medical.php">Medical Arm</a></li>
+                    <li><a href="awareness.php">Workshop Arm</a></li>
+                    <li><a href="service.php">Service Arm</a></li>
+                    <li><a href="policy.php">Policy Arm</a></li>
+                    <li><a href="law.php">Law Arm</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Founders</a></li>                     
+                    <li><a href="coreteam.php">Core Team</a></li>            
+                    <li><a href="crw.php">CRWs</a></li>                  
+                    <li><a href="collegechapter.php">College Chapters</a></li>                  
+                    <li><a href="event.php">Join Us</a></li>
+                  </ul>
+                </li> 
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Successful Projects</a></li>
+                    <li><a href="awards.php">Awards</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Media <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Blog</a></li>                     
+                    <li><a href="event.php">In Media</a></li>
+                    <li><a href="event.php">Press Release</a></li>
+                  </ul>                        
+                </li>               
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Join Us</a></li>
+                    <li><a href="awards.php">Collabarate</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>  
+             <!-- Form for navbar search area -->
+            <form class="full-search">
+              <div class="container">
+                <div class="row">
+                  <input class="form-control" type="text" placeholder="Search">
+                  <a class="close-search">
+                  <span class="fa fa-times">
+                  </span>
+                  </a>
+                </div>
+              </div>
+            </form>
+            <!-- Search form ends -->   
+
+            <!-- Mobile Menu Start -->
+            <ul class="wpb-mobile-menu">
+              <!-- <li>
+                <a class="active" href="index.php">Home</a>
+              </li>
+              <li>
+                <a class="active" href="about.php">About</a>
+              </li>
+              <li>
+                <a href="#">Courses</a>
+                <ul>
+                  <li><a href="courses-list.php">Courses List</a></li>    
+                  <li><a href="courses-grid.php">Courses Grid</a></li>  
+                  <li><a href="courses-single.php">Single Course</a></li>   
+                </ul>                        
+              </li>
+              <li>
+                <a href="#">Pages</a>
+                <ul>
+                  <li><a href="about.php">About Page</a></li>                     
+                  <li><a href="gallery.php">Image Gallery</a></li>
+                  <li><a href="faq.php">FAQ</a></li>    
+                  <li><a href="login.php">Login Page</a></li> 
+                  <li><a href="single-teacher.php">Single Teacher</a></li> 
+                  <li><a href="registration.php">Registration Form</a></li> 
+                  <li><a href="contact.php">Contacts</a></li> 
+                  <li><a href="404.php">404</a></li> 
+                </ul>                        
+              </li>
+              <li>
+                <a href="#">Events</a>
+                <ul>
+                  <li><a href="event-grid.php">Events Grid</a></li>                     
+                  <li><a href="event.php">Single Event</a></li>
+                </ul>                        
+              </li> 
+              <li>
+                <a href="#">Media</a>
+                <ul>
+                  <li><a href="blog.php">Blog - Right Sidebar</a></li>                     
+                  <li><a href="blog-left-sidebar.php">Blog - Left Sidebar</a></li>
+                  <li><a href="blog-full-width.php">Blog - Full Width</a></li>   
+                  <li><a href="single-post.php">Blog Single Post</a></li>   
+                </ul>                        
+              </li>              
+              <li><a href="contact.php">Contact</a></li> -->
+              <li class="dropdown dropdown-toggle">
+                  <a href="about.php">About</a>
+                </li>
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Regular Events</a></li>                     
+                    <li><a href="event.php">UN Road Safety Week</a></li>
+                    <li class="dropdown dropdown-toggle">
+                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
+                      <ul class="dropdown-menu pull">
+                        <li><a href="#">iSafe</a></li>
+                        <li><a href="#">Watch the Road</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Technical Arm</a></li>
+                    <li><a href="#">Medical Arm</a></li>
+                    <li><a href="#">Workshop Arm</a></li>
+                    <li><a href="#">Service Arm</a></li>
+                    <li><a href="#">Policy Arm</a></li>
+                    <li><a href="#">Law Arm</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Founders</a></li>                     
+                    <li><a href="coreteam.php">Core Team</a></li>            
+                    <li><a href="crw.php">CRWs</a></li>                  
+                    <li><a href="collegechapter.php">College Chapters</a></li>                  
+                    <li><a href="event.php">Join Us</a></li>
+                  </ul>
+                </li> 
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Successful Projects</a></li>
+                    <li><a href="awards.php">Awards</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Media <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Blog</a></li>                     
+                    <li><a href="event.php">In Media</a></li>
+                    <li><a href="event.php">Press Release</a></li>
+                  </ul>                        
+                </li>               
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Join Us</a></li>
+                    <li><a href="awards.php">Collabarate</a></li>
+                  </ul>
+                </li>
+            </ul>
+            <!-- Mobile Menu End -->
+
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Page Header End -->
+      </nav>
+      <!-- Navbar End -->
 
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
-      <div class="container">
-      <center>
-         <div class="row" style="width: 800px; text-align: center;">
-            <h2 class="text-center">About</h2>
-            <p>Giving the students technical exposure as to how they can technology to solve road-safety issues like: <br>
-1. Technical Internship with Universities and Industries.<br>
-2. Development of Products like: Safe Helmets, Breathe Analyzer<br>
-Working with Ministry of Road Transport and Highways For:<br>
-1.Digitalizing the accident Reporting procedure<br>
-2.Improving the m-Parivahan App of MoRTH<br>
-3.Development of national road safety portal: www.missionroadsafety.com<br>
-</p>
-        </div></center>
-         <div class="row">
-            <h2 class="text-center">About</h2>
-            <p></p>
-        </div>
-        <div class="row">
-          <h2 class="text-center">Present Projects</h2>
-          <div class="row wow fadeIn">
-                <div class="col-lg-5 col-lg-offset-1">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(11).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Technical Internships</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(25).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Road Accidents Data Portal</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-          <h2 class="text-center">Past Projects</h2>
-          <div class="row wow fadeIn">
-                <div class="col-lg-5 col-lg-offset-1">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(11).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Technical Internships</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(25).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Road Accidents Data Portal</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Content Section  -->
-
-  <?php include './footer.php' ?>
-
-    <!-- Go To Top Link -->
-    <a href="#" class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </a>
-
- 
-
-    <!-- jQuery  -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/color-switcher.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
-    <script type="text/javascript" src="assets/js/wow.js"></script>
-    <script type="text/javascript" src="assets/js/nivo-lightbox.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>  
-    <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>   
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script> 
-    <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
-    <script type="text/javascript" src="assets/js/contact-form-script.js"></script>  
-    
-    <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/main.js"></script>
-
-  </body>
-</html>
+    </header>
