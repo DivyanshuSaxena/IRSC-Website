@@ -41,7 +41,7 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Technical Arm</h2>
+              <h2 class="page-title">Law Arm</h2>
               <a href="index.html">Home</a>
               <span>/</span>
               <span class="current">Domains</span>
@@ -56,20 +56,14 @@
     <section id="content" class="error-bg">
       <div class="container">
       <center>
-         <div class="row" style="width: 800px; text-align: center;">
+         <div class="row" style="width: 800px;text-align: left;">
             <h2 class="text-center">About</h2>
-            <p>Giving the students technical exposure as to how they can technology to solve road-safety issues like: <br>
-1. Technical Internship with Universities and Industries.<br>
-2. Development of Products like: Safe Helmets, Breathe Analyzer<br>
-Working with Ministry of Road Transport and Highways For:<br>
-1.Digitalizing the accident Reporting procedure<br>
-2.Improving the m-Parivahan App of MoRTH<br>
-3.Development of national road safety portal: www.missionroadsafety.com<br>
+            <p>
+Working with the Supreme Court Committee on Road Safety and with students from various Law colleges in India, we intend to make the Law related to various aspects of road-safety accessible to all.<br>
+
 </p>
         </div></center>
-         <div class="row">
-            <h2 class="text-center">About</h2>
-            <p></p>
+         
         </div>
         <div class="row">
           <h2 class="text-center">Present Projects</h2>

@@ -50,11 +50,22 @@
         </div>
       </div>
     </div>
-    <!-- Page Header End --> 
+    <!-- Page Header End -->
 
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
-      <div class="container">
+      <div class="container"><center>
+         <div class="row" style="width: 800px; text-align: center;">
+            <h2 class="text-center">About</h2>
+            <p>Giving the students technical exposure as to how they can technology to solve road-safety issues like: <br>
+1. Technical Internship with Universities and Industries.<br>
+2. Development of Products like: Safe Helmets, Breathe Analyzer<br>
+Working with Ministry of Road Transport and Highways For:<br>
+1.Digitalizing the accident Reporting procedure<br>
+2.Improving the m-Parivahan App of MoRTH<br>
+3.Development of national road safety portal: www.missionroadsafety.com<br>
+</p>
+        </div></center>
         <div class="row">
           <h2 class="text-center">Present Projects</h2>
           <div class="row wow fadeIn">
