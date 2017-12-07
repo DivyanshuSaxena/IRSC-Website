@@ -11,12 +11,11 @@
               Contact Info
             </h3>
             <p>
-              A powerhouse of cutting-edge education, research & teaching in The World
+              India's largest youth-led movement across more than five hundred colleges.
             </p>  
             <ul class="address">
-                <li><i class="fa fa-home"></i> Sydney NSW 2052, Australia</li>
-                <li><i class="fa fa-phone"></i> +61 2 9385 1000</li>
-                <li><i class="fa fa-envelope"></i> hello@brightuniversity.edu</li>
+                <li><i class="fa fa-home"></i> New Delhi, India</li>
+                <li><i class="fa fa-envelope"></i> info@road-safety.com</li>
             </ul>        
           </div><!-- Footer Widget Ends -->
           
@@ -45,14 +44,15 @@
           <!-- Footer Widget Starts -->
           <div class="footer-widget col-md-3 col-sm-6 col-xs-12">
             <h3 class="small-title">
-              Our Courses
+              Our Domains
             </h3>
             <ul class="list">
-              <li><a href="#">Web design</a></li>
-              <li><a href="#">Android Developer</a></li>
-              <li><a href="#">PHP Tranning</a></li>
-              <li><a href="#">IOS Developer</a></li>
-              <li><a href="#">App Design Package</a></li>
+              <li><a href="#">Policy Arm</a></li>
+              <li><a href="#">Technical Arm</a></li>
+              <li><a href="#">Medical Arm</a></li>
+              <li><a href="#">Workshop Arm</a></li>
+              <li><a href="#">Law Arm</a></li>
+              <li><a href="#">Services Arm</a></li>
             </ul>
           </div>
           <!-- Footer Widget Ends -->
@@ -60,7 +60,7 @@
           <!-- Footer Widget Starts -->
           <div class="footer-widget col-md-3 col-sm-6 col-xs-12">
             <h3 class="small-title">
-              College Gallery
+              Gallery
             </h3>
             <div class="plain-flicker-gallery">
               <a href="#" title="Pan Masala"><img src="assets/img/flicker/img1.jpg" alt=""></a>
@@ -78,11 +78,6 @@
       <div id="copyright">
         <div class="container">
           <div class="row">
-            <div class="col-md-6  col-sm-6">
-              <p class="copyright-text">
-                © All rights reserved 2017 - Design &amp; Developed by <a rel="nofollow" href="http://graygrids.com">GrayGrids</a>
-              </p>
-            </div>
             <div class="col-md-6  col-sm-6">                
               <div class="bottom-social-icons pull-right">  
                 <a class="facebook" target="_blank" href="https://web.facebook.com/GrayGrids"><i class="fa fa-facebook"></i></a> 

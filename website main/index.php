@@ -339,7 +339,7 @@
     			<button class="btn btn-common donate-button" type="submit" style="float: right;">Donate</button>
     		</div>
     		<div class="col-xs-6 donaterow">
-    			<button class="btn btn-common donate-button" type="submit" style="float: left;">Donate</button>
+    			<button class="btn btn-common donate-button" type="submit" style="float: left;">Join Us</button>
     		</div>
     	</div>
 	</div>

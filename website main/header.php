@@ -44,12 +44,12 @@
                 </li>
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Technical Arm</a></li>
-                    <li><a href="#">Medical Arm</a></li>
-                    <li><a href="#">Awareness Arm</a></li>
-                    <li><a href="#">Workshop/Service Arm</a></li>
-                    <li><a href="#">Policy Arm</a></li>
-                    <li><a href="#">Law Arm</a></li>
+                    <li><a href="technical.php">Technical Arm</a></li>
+                    <li><a href="medical.php">Medical Arm</a></li>
+                    <li><a href="awareness.php">Awareness Arm</a></li>
+                    <li><a href="service.php">Workshop/Service Arm</a></li>
+                    <li><a href="policy.php">Policy Arm</a></li>
+                    <li><a href="law.php">Law Arm</a></li>
                   </ul>
                 </li>
 
