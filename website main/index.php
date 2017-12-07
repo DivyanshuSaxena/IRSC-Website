@@ -204,7 +204,7 @@
 
 
     <!-- Impact Section  Start-->
-    <div class="container-fluid" style="padding: 0px;">
+    <div class="container-fluid" style="padding: 0px; margin-bottom: 50px;">
         	<h1 class="text-center" style="font-size: 40px;">Our Impact</h1>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">

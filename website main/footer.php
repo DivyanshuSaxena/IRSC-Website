@@ -52,7 +52,7 @@
               <li><a href="#">Safekart</a></li>
               <li><a href="#">Marathon</a></li>
               <li><a href="#">Conferences</a></li>
-              <li><a href="#">Important Resources</a></li>
+              <li><a href="important.php">Important Resources</a></li>
             </ul>
           </div>
           <!-- Footer Widget Ends -->
