@@ -256,24 +256,21 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="Los Angeles" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/morth.png" alt="Morth" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/who.png" alt="Who" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/tripp.png" alt="Tripp" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/dtp.png" alt="Delhi Traffic Police" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/iitd.png" alt="IITD" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/aiims.jpg" alt="Inshorts" style="width:16%; display:inline; float: left; height: 100px;">
       </div>
 
       <div class="item">
-        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="Chicago" style="width:25%; display:inline; float: left; height: 100px;">
-      </div>
-    
-      <div class="item">
-        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
-        <img src="circle.png" alt="New york" style="width:25%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/ifros.png" alt="Ifros" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/bits.png" alt="BITS" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/delhip.png" alt="Delhi Police" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/arrive-safe.png" alt="Arrive Safe" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/du.jpg" alt="Delhi University" style="width:16%; display:inline; float: left; height: 100px;">
+        <img src="./assets/img/collaborate/slf.png" alt="Save Life Foundation" style="width:16%; display:inline; float: left; height: 100px;">
       </div>
     </div>
   </div>
