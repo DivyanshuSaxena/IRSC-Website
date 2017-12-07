@@ -14,8 +14,14 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <!-- Color Switcher -->
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/added.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
@@ -31,10 +37,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
 
   </head>
+
   <body>
     
-    <!-- Header area wrapper Starts -->
-   <?php include './header.php' ?>
+    <?php include './header.php' ?>
     <!-- Header area wrapper End -->
 
     <!-- Page Header Start -->
@@ -43,10 +49,10 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Our Teachers</h2>
+              <h2 class="page-title">Collaborate</h2>
               <a href="index.html">Home</a>
               <span>/</span>
-              <span class="current">Teachers</span>
+              <span class="current">Collaborate</span>
             </div>
           </div>
         </div>
@@ -54,37 +60,37 @@
     </div>
     <!-- Page Header End --> 
 
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
+    <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Content Section  -->
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Individual</a></li>
+          <li><a data-toggle="tab" href="#menu1">College</a></li>
+          <li><a data-toggle="tab" href="#menu2">NGO</a></li>
+          <li><a data-toggle="tab" href="#menu3">Corporate</a></li>
+        </ul>
 
-    <!-- Start Call to Action Section -->
-    <div class="cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-8">
-            <h3>Locavore food truck cornhole sustainable paleo hella.</h3>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>Individual</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="col-md-4 col-sm-4">
-            <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-border">Purchase Now</a>
+          <div id="menu1" class="tab-pane fade">
+            <h3>College</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-        </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>NGO</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <h3>Corporate</h3>
+            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          </div>
+        </div>    
       </div>
     </div>
-    <!-- End Call to Action Section -->
 
-   <?php include './footer.php' ?>
+    <?php include './footer.php' ?>
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">

@@ -257,7 +257,7 @@
       <!-- collaborators start -->
     <div class="container">
   <h3>Collaborators</h3>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">

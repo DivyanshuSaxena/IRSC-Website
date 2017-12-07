@@ -79,7 +79,7 @@
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="projects.php">Join Us</a></li>
-                    <li><a href="awards.php">Collabarate</a></li>
+                    <li><a href="collaborate.php">Collaborate</a></li>
                   </ul>
                 </li>
               </ul>

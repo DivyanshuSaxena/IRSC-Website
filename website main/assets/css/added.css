@@ -52,3 +52,11 @@
 .activity-item {
 	background-color: #e1e1e1;
 }
+
+.nav-tabs .active a {
+	color: white !important;
+}
+
+.nav-tabs li a:hover {
+	color: white !important;
+}
