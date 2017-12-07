@@ -22,20 +22,20 @@
           <!-- Footer Widget Starts -->
           <div class="footer-widget col-md-3 col-sm-6 col-xs-12">
             <h3 class="small-title">
-              Latest News
+              Resources
             </h3>
             <ul class="recent-post">
               <li class="post">
                 <a href="assets/img/flicker/img1.jpg" class="lightbox">
                 <img alt="" src="assets/img/flicker/img1.jpg">
                 </a>
-                <p class="text">Fightin'the system like true modern <br><span>Nov 05,2016</span></p>
+                <p class="text">A portal for road accidents data <br><span>www.missionroadsafety.com</span></p>
               </li>
               <li class="post">
                 <a href="assets/img/flicker/img1.jpg" class="lightbox">
                 <img alt="" src="assets/img/flicker/img2.jpg">
                 </a>
-                <p class="text">Will we're movin' on up to the east side <br><span>Nov 09,2016</span></p>
+                <p class="text">An interactive coloring sketchbook for children <br><span>Find here</span></p>
               </li>
             </ul>
           </div>
@@ -44,15 +44,15 @@
           <!-- Footer Widget Starts -->
           <div class="footer-widget col-md-3 col-sm-6 col-xs-12">
             <h3 class="small-title">
-              Our Domains
+              Important Links
             </h3>
             <ul class="list">
-              <li><a href="#">Policy Arm</a></li>
-              <li><a href="#">Technical Arm</a></li>
-              <li><a href="#">Medical Arm</a></li>
-              <li><a href="#">Workshop Arm</a></li>
-              <li><a href="#">Law Arm</a></li>
-              <li><a href="#">Services Arm</a></li>
+              <li><a href="#">iSAFE</a></li>
+              <li><a href="#">Ambivan</a></li>
+              <li><a href="#">Safekart</a></li>
+              <li><a href="#">Marathon</a></li>
+              <li><a href="#">Conferences</a></li>
+              <li><a href="#">Important Resources</a></li>
             </ul>
           </div>
           <!-- Footer Widget Ends -->
