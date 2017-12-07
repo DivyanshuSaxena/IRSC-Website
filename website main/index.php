@@ -109,7 +109,7 @@
                         <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item" style="height: 200px;">
                       
                          <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;">4.07</p>
@@ -131,7 +131,7 @@
                         <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item" style="height: 200px;">
                         <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">50</p>
                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
@@ -162,7 +162,7 @@
                         <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                       
                          <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;">4.07</p>
@@ -183,7 +183,7 @@
                         <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
+                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                         <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">50</p>
                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
