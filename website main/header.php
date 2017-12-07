@@ -1,18 +1,5 @@
 <!-- Header area wrapper Starts -->
     <header id="header-wrap">
-      <!-- Roof area Starts -->
-      <div id="roof" class="hidden-xs">
-          <div class="container">
-
-              <!-- Quick Contacts Starts -->
-              <div class="quick-contacts pull-right">
-                  <span><i class="fa fa-envelope"></i><a href="#">amar@road-safety.co.in</a></span>
-                  <span><a href="login.php"><i class="fa fa-user"></i> Login</a> / <a href="login.php">Register</a></span>
-              </div>
-              <!-- Quick Contacts End -->
-          </div>
-      </div>
-      <!-- Roof area End -->
 
       <!-- Navbar Start -->
       <nav class="navbar navbar-default main-navigation" role="navigation" data-spy="affix" data-offset-top="50">
@@ -41,7 +28,6 @@
                 <li class="dropdown dropdown-toggle">
                   <a href="about.php">About</a>
                 </li>
-
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
@@ -75,8 +61,7 @@
                     <li><a href="collegechapter.php">College Chapters</a></li>                  
                     <li><a href="event.php">Join Us</a></li>
                   </ul>
-                </li>   
-                <li class="dropdown"><a href="gallery.php">Gallery</a></li>
+                </li> 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="projects.php">Successful Projects</a></li>
@@ -115,7 +100,7 @@
 
             <!-- Mobile Menu Start -->
             <ul class="wpb-mobile-menu">
-              <li>
+              <!-- <li>
                 <a class="active" href="index.php">Home</a>
               </li>
               <li>
@@ -158,7 +143,64 @@
                   <li><a href="single-post.php">Blog Single Post</a></li>   
                 </ul>                        
               </li>              
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li> -->
+              <li class="dropdown dropdown-toggle">
+                  <a href="about.php">About</a>
+                </li>
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Regular Events</a></li>                     
+                    <li><a href="event.php">UN Road Safety Week</a></li>
+                    <li class="dropdown dropdown-toggle">
+                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
+                      <ul class="dropdown-menu pull">
+                        <li><a href="#">iSafe</a></li>
+                        <li><a href="#">Watch the Road</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Technical Arm</a></li>
+                    <li><a href="#">Medical Arm</a></li>
+                    <li><a href="#">Awareness Arm</a></li>
+                    <li><a href="#">Workshop/Service Arm</a></li>
+                    <li><a href="#">Policy Arm</a></li>
+                    <li><a href="#">Law Arm</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Founders</a></li>                     
+                    <li><a href="coreteam.php">Core Team</a></li>            
+                    <li><a href="crw.php">CRWs</a></li>                  
+                    <li><a href="collegechapter.php">College Chapters</a></li>                  
+                    <li><a href="event.php">Join Us</a></li>
+                  </ul>
+                </li> 
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Successful Projects</a></li>
+                    <li><a href="awards.php">Awards</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown-toggle">
+                  <a href="#" data-toggle="dropdown">Media <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="event-grid.php">Blog</a></li>                     
+                    <li><a href="event.php">In Media</a></li>
+                    <li><a href="event.php">Press Release</a></li>
+                  </ul>                        
+                </li>               
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="projects.php">Join Us</a></li>
+                    <li><a href="awards.php">Collabarate</a></li>
+                  </ul>
+                </li>
             </ul>
             <!-- Mobile Menu End -->
 
@@ -167,4 +209,3 @@
       <!-- Navbar End -->
 
     </header>
-    <!-- Header area wrapper End -->

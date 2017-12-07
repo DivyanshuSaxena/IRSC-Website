@@ -1,8 +1,8 @@
 a{
-  color: #01b1d7;
+  color: #e2544d;
 }
 a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .btn-common {
   background: #aaa;
@@ -15,48 +15,48 @@ a:hover{
 }
 /* Back to Top */
 .back-to-top i {
-  background-color: #01b1d7;
+  background-color: #e2544d;
 }
 #color-style-switcher .bottom a i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #roof{
-  background: #01b1d7;
+  background: #e2544d;
 }
 /* Navbar */
 .slicknav_btn{
-  border-color: #01b1d7;
+  border-color: #e2544d;
   border-radius: 2px;
 }
 .slicknav_menu .slicknav_btn .slicknav_icon-bar{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .slicknav_menu .slicknav_btn:hover{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .slicknav_nav a:hover,.slicknav_nav a.active{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .slicknav_nav ul li a.active{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .full-search{
-  border-color: #01b1d7;
+  border-color: #e2544d;
 }
 .full-search::before{
-  border-color: transparent transparent #01b1d7;
+  border-color: transparent transparent #e2544d;
 }
 .full-search input[type="text"]{
-  border-top: 2px solid #01b1d7;
+  border-top: 2px solid #e2544d;
 }
 .full-search input[type="text"]:focus{
-  border-top: 2px solid #01b1d7;
+  border-top: 2px solid #e2544d;
 }
 .full-search .close-search{
-   color: #01b1d7;
+   color: #e2544d;
 }
 .account-setting a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 /* Navbar */
 .main-navigation .navbar-nav > li > a:hover,
@@ -65,169 +65,169 @@ a:hover{
 .main-navigation .navbar-nav > .active > a:hover,
 .main-navigation .navbar-nav > .active > a:focus,
 .main-navigation .navbar-nav > .open > a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .dropdown-menu > li > a:focus,
 .dropdown-menu> li > a:hover,
 .dropdown-menu> li > a.active{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .open-search{
-  background: #01b1d7;
+  background: #e2544d;
 }
 #carousel-area .carousel-indicators li{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .activity-item{
-  border-color: #01b1d7;
+  border-color: #e2544d;
 }
 .icon i{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .thumb .courses-price .price{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .coaching-courses .coaching-wrapper h3 span{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .why-wrap:hover h4 a{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .counting .icon-left i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .teacher .teacher-item .teacher-desc h3 a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .news-grid-item .news-content .news-title a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .news-grid-item .news-content .meta .meta-part a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .meta .meta-part a i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 footer .address li i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 footer .list li a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .course-list .courses-list-1 .item-list .price{
-  color: #01b1d7;
+  color: #e2544d;
 }
 /* Feature Highlighta */
 .owl-theme .owl-buttons div{
-  background: #01b1d7!important;
+  background: #e2544d!important;
 }
 /* Gallery */
 .controls a:hover, .controls .active{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .controls a{
-  border-color: #01b1d7;
+  border-color: #e2544d;
 }
 .portfolio-item .icon i:hover{
-  color: #01b1d7;
-  border-color: #01b1d7;
+  color: #e2544d;
+  border-color: #e2544d;
 }
 .sup-desc-wrap .sup-link .left-link, .sup-desc-wrap .sup-link .right-link{
-  border-color: #01b1d7;
-  background: #01b1d7;
+  border-color: #e2544d;
+  background: #e2544d;
 }
 .sup-desc-wrap .sup-link a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 /* Pagination */
 .pagination .active > a, .pagination .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
-  background: #01b1d7!important;
+  background: #e2544d!important;
 }
 .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover{
-  background: #01b1d7!important;
-  border-color: #01b1d7!important;
+  background: #e2544d!important;
+  border-color: #e2544d!important;
 }
 .breadcrumb-wrapper .current{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #sidebar .tag a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .widget-area-sidebar .posts-list .widget-content a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .widget-featured .widget-img .text span{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .nav-tabs > li > a{
-  border-color: #01b1d7; 
+  border-color: #e2544d; 
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover{
-  background: #01b1d7;
-  border-color: #01b1d7; 
+  background: #e2544d;
+  border-color: #e2544d; 
 }
 .form-control:focus, textarea:focus{
-  border-color: #01b1d7; 
+  border-color: #e2544d; 
 }
 .panel-default .panel-heading a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .cta{
-  background: #01b1d7; 
+  background: #e2544d; 
 }
 .tp-bullets.preview4 .bullet:hover, .tp-bullets.preview4 .bullet.selected{
-  background: #01b1d7!important; 
-  border-color: #01b1d7!important; 
+  background: #e2544d!important; 
+  border-color: #e2544d!important; 
 }
 
 .single-course .course-item .topics ul li i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .course-information .amount{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #sidebar .cat-list li i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #sidebar .posts-list .widget-content a{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .about .info-list li a i{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .about .info-list li a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .post-title a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .meta .meta-part a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #sidebar .cat-list li a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #sidebar .tag a{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .event-post .date p{
-  color: #01b1d7;
+  color: #e2544d;
 }
 .event-post .date{
-  border-color: #01b1d7;
+  border-color: #e2544d;
 }
 .event-grid-item .event-content .heding-title .date{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .event-grid-item .event-content .heding-title h3 a:hover{
-  color: #01b1d7;
+  color: #e2544d;
 }
 #comments .comments-list .media .info-body .reply-link:hover{
-  background: #01b1d7;
+  background: #e2544d;
 }
 .testimonial-item .quote-author .quote-footer span{
-  color: #01b1d7;
+  color: #e2544d;
 }

@@ -105,101 +105,96 @@
                 </div>                
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
                     <div class="activity-item" style="height: 200px; ">
-                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: crimson;">17</p>
-                        <p class="problem-font" style="color: black;"><b>people die every hour on Indian Roads</b></p>
+                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: #e25440;">17</p>
+                        <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
                     <div class="activity-item" style="height: 200px;">
                       
-                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
-                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
-                        <p style="color: black;"><b>is the cost to India due to road crashes annually</b></p>
+                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;">4.07</p>
+                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: #e25440;"><b>LAKH CRORES</b></p>
+                        <p style="color: #353637;"><b>is the cost to India due to road crashes annually</b></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
                     <div class="activity-item" style="height: 200px;">
                         
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">46</p>
-                        <p class="problem-font" style="color: black;"><b>children die every day on Indian roads</b></p>
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">46</p>
+                        <p class="problem-font" style="color: #353637;"><b>children die every day on Indian roads</b></p>
                     </div>
                 </div>              
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
                     <div class="activity-item" style="height: 200px;">
                     
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
-                        <p style="color: black;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">50%</p>
+                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
                     <div class="activity-item" style="height: 200px;">
-                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">50</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
-                        <p style="color: black;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">50</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
+                        <p style="color: #353637;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
                     </div>
                 </div>
                
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
                     <div class="activity-item" style="height: 200px; ">
-                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">10</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
-                        <p style="color: black;"><b>people have been killed in road accidents over the past decade</b></p>
+                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">10</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
+                        <p style="color: #353637;"><b>people have been killed in road accidents over the past decade</b></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>       
-    
-    <!-- Activity Area End -->
-
 
     <section class="activity-area section">
         <div class="container" style="max-width: 800px;">
             <div class="row">
                 <div class="col-md-12">
-                  <h2 class="section-title" style="font-size: 40px;">OUR WORK</h2>
+                  <h2 class="section-title" style="font-size: 40px;">WHAT WE DO</h2>
                 </div>                
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
-                    <div class="activity-item" style="height: 200px; ">
-                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: crimson;">17</p>
-                        <p class="problem-font" style="color: black;"><b>people die every hour on Indian Roads</b></p>
+                    <div class="activity-item what-we-do" style="height: 200px; ">
+                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: #e25440;">17</p>
+                        <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
-                    <div class="activity-item" style="height: 200px;">
+                    <div class="activity-item what-we-do" style="height: 200px;">
                       
-                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;">4.07</p>
-                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: crimson;"><b>LAKH CRORES</b></p>
-                        <p style="color: black;"><b>is the cost to India due to road crashes annually</b></p>
+                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;">4.07</p>
+                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: #e25440;"><b>LAKH CRORES</b></p>
+                        <p style="color: #353637;"><b>is the cost to India due to road crashes annually</b></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
-                    <div class="activity-item" style="height: 200px;">
+                    <div class="activity-item what-we-do" style="height: 200px;">
                         
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">46</p>
-                        <p class="problem-font" style="color: black;"><b>children die every day on Indian roads</b></p>
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">46</p>
+                        <p class="problem-font" style="color: #353637;"><b>children die every day on Indian roads</b></p>
                     </div>
                 </div>              
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
-                    <div class="activity-item" style="height: 200px;">
-                    
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: crimson;">50%</p>
-                        <p style="color: black;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                    <div class="activity-item what-we-do" style="height: 200px;">
+                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">50%</p>
+                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow flipInX" >
-                    <div class="activity-item" style="height: 200px;">
-                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">50</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
-                        <p style="color: black;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                    <div class="activity-item what-we-do" style="height: 200px;">
+                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">50</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
+                        <p style="color: #353637;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
                     </div>
-                </div>
-               
+                </div>               
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
-                    <div class="activity-item" style="height: 200px; ">
-                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: crimson;">10</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: crimson;"><b>LAKH+</b></p>
-                        <p style="color: black;"><b>people have been killed in road accidents over the past decade</b></p>
+                    <div class="activity-item what-we-do" style="height: 200px; ">
+                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">10</p>
+                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
+                        <p style="color: #353637;"><b>people have been killed in road accidents over the past decade</b></p>
                     </div>
                 </div>
             </div>
@@ -213,23 +208,35 @@
         	<h1 class="text-center" style="font-size: 40px;">Our Impact</h1>
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impb"><p>Lorem Ipsum</p></div><!--FB3640-->
+                <div class="impb align-middle">
+                  <p style="font-size: 40px;">50+</p>
+                  <p>Cities</p>
+                </div><!--FB3640-->
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12"  style="padding-left: 0px; padding-right: 0px;">
-                <div class="impa"><p>Lorem Ipsum</p></div>
+                <div class="impa align-middle">
+                  <p style="font-size: 40px;">500+</p> 
+                  <p>Colleges</p>
+                </div>
             </div>  
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impb"><p>Lorem Ipsum</p></div>
+                <div class="impb align-middle">
+                  <p style="font-size: 40px;">1700+</p> 
+                  <p>Volunteers</p>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
-                <div class="impa"><p>Lorem Ipsum</p></div>
+                <div class="impa align-middle">
+                  <p style="font-size: 40px;">25Lakh+</p> 
+                  <p>Direct Reach</p>
+                </div>
             </div>
         </div>
     </div>
     <!-- Impact Section End  -->
 
     <!-- Courses Section Start -->
-    <section class="courses section">
+    <section class="section activity-area ">
         <div class="container">
             <div class="row">
             <div class="col-md-8 gadkari-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
@@ -242,10 +249,7 @@
                 </div>
         	</div>
     	</div>
-    </section>
-    <!-- Courses Section End -->
-    
-    <!-- collaborators start -->
+      <!-- collaborators start -->
     <div class="container">
   <h3>Collaborators</h3>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
@@ -276,91 +280,11 @@
 </div>
     <!-- collaborators end -->
 
-    <!-- Why Choose section Start -->
-    <div class="why-choose">
-        <div class="container">
-          <div class="row"> 
-            <h2 class="section-title">Why Choose Our University</h2>           
-            <div class="col-md-7 col-sm-7 col-xl-12>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="why-wrap">
-                    <div class="icon">
-                        <i class="fa fa-line-chart"></i>
-                    </div>
-                    <div class="why-text">
-                      <h4><a href="#">Modern Courses</a></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla.</p>
-                    </div>
-                  </div>                
-                </div>
-                <div class="col-md-6">
-                  <div class="why-wrap">
-                    <div class="icon">
-                        <i class="fa fa-trophy"></i>
-                    </div>
-                    <div class="why-text">
-                      <h4><a href="#">High-profile Faculties</a></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla.</p>
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-md-6">
-                  <div class="why-wrap">
-                    <div class="icon">
-                        <i class="fa fa-briefcase"></i>
-                    </div>
-                    <div class="why-text">
-                      <h4><a href="#">Guaranteed Career</a></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla.</p>
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-md-6">
-                  <div class="why-wrap">
-                    <div class="icon">
-                        <i class="fa fa-magic"></i>
-                    </div>
-                    <div class="why-text">
-                      <h4><a href="#">Research Programs</a></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla.</p>
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-md-6">
-                  <div class="why-wrap">
-                    <div class="icon">
-                        <i class="fa fa-money"></i>
-                    </div>
-                    <div class="why-text">
-                      <h4><a href="#">Affordable Costs</a></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla.</p>
-                    </div>
-                  </div> 
-                </div>
-                <div class="col-md-6">
-                  <div class="why-wrap">
-                    <div class="icon">
-                        <i class="fa fa-film"></i>
-                    </div>
-                    <div class="why-text">
-                      <h4><a href="#">Cultural Events</a></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae nulla.</p>
-                    </div>
-                  </div> 
-                </div>
-              </div>
-            </div>
-
-            
-
-          </div>
-        </div>
-    </div>
-    <!-- Why Choose section End --> 
-
+    </section>
+    <!-- Courses Section End -->
+  
     <!-- News Coverage -->
-    <section class="News">
+    <section class="News section activity-area">
       <div class="container">
         <div class="row">
           <h2 class="section-title">Media Coverage</h2>

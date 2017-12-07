@@ -9,7 +9,7 @@ body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #999999;
+  color: #363537;
   margin: 0;
   line-height: 25px;
   background: #fff;
@@ -61,8 +61,6 @@ a:focus {
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  padding: 0px 0 30px;
-  margin-bottom: 20px;
   margin-top: 0;
   text-transform: uppercase;
   line-height: 42px;
@@ -970,7 +968,7 @@ button:focus {
 .activity-item {
   padding: 20px 15px 30px;
   text-align: center;
-  border: 1px solid #436eee;
+  /*border: 1px solid #e2544d;*/
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -1899,7 +1897,7 @@ footer #copyright .bottom-social-icons .linkedin:hover {
 }
 .sup-desc-wrap .sup-meta-wrap .sup-title h4 {
   font-size: 18px;
-  color: #000;
+  color: #353637;
   line-height: 22px;
   text-transform: uppercase;
   font-weight: 300;

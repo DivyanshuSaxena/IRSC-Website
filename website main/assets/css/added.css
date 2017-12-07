@@ -8,7 +8,7 @@
 	width: 80vw;
 	min-width: 350px;
 	margin: 0 12vw 0 8vw;
-	z-index: 1080;
+	z-index: 500;
 }
 
 #mainCarousel {
@@ -47,4 +47,8 @@
 
 .donate-button {
 	width: 20vw;
+}
+
+.activity-item {
+	background-color: #e1e1e1;
 }

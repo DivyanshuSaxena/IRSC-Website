@@ -4,8 +4,8 @@
     box-sizing: content-box;
    height: 100px;
    padding: auto;
-   padding-top: 60px;
-    background-color: #FB3640;
+   padding-top: 40px;
+    background-color: #e2544d;
     position: relative;
     min-height: 1px;
     color: black;
@@ -18,7 +18,7 @@
       box-sizing: content-box;
       height: 100px;
    padding: auto;
-   padding-top: 60px;
+   padding-top: 40px;
     background-color: black;   
     position: relative;
     min-height: 1px;
