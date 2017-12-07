@@ -41,7 +41,7 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Technical Arm</h2>
+              <h2 class="page-title">Awareness Arm</h2>
               <a href="index.html">Home</a>
               <span>/</span>
               <span class="current">Domains</span>
@@ -54,64 +54,15 @@
 
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
-      <div class="container">
-      <center>
+      <div class="container"><center>
          <div class="row" style="width: 800px; text-align: center;">
             <h2 class="text-center">About</h2>
-            <p>Giving the students technical exposure as to how they can technology to solve road-safety issues like: <br>
-1. Technical Internship with Universities and Industries.<br>
-2. Development of Products like: Safe Helmets, Breathe Analyzer<br>
-Working with Ministry of Road Transport and Highways For:<br>
-1.Digitalizing the accident Reporting procedure<br>
-2.Improving the m-Parivahan App of MoRTH<br>
-3.Development of national road safety portal: www.missionroadsafety.com<br>
+            <p>Awareness is one of the most crucial arm of our organisation, consistinf various services that includes: organising of Lectures, Field Visits, School Visits, Competitions, Events, Marathons, Street Plays etc.
 </p>
         </div></center>
-         <div class="row">
-            <h2 class="text-center">About</h2>
-            <p></p>
-        </div>
+       
         <div class="row">
-          <h2 class="text-center">Present Projects</h2>
-          <div class="row wow fadeIn">
-                <div class="col-lg-5 col-lg-offset-1">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(11).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Technical Internships</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(25).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="card-block">
-                            <h4 class="card-title">Road Accidents Data Portal</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-          <h2 class="text-center">Past Projects</h2>
+          <h2 class="text-center">Our Projects</h2>
           <div class="row wow fadeIn">
                 <div class="col-lg-5 col-lg-offset-1">
                     <div class="card">
