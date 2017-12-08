@@ -64,7 +64,7 @@
       <div class="container">
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#home">Individual</a></li>
-          <li><a data-toggle="tab" href="#menu1">College</a></li>
+          <li><a data-toggle="tab" href="#menu1">School/College</a></li>
           <li><a data-toggle="tab" href="#menu2">NGO</a></li>
           <li><a data-toggle="tab" href="#menu3">Corporate</a></li>
         </ul>
@@ -81,15 +81,32 @@
           $msg = $_POST["msg"];
           $company = $_POST["company"];
           $college = $_POST["college"];
+           $email_to = 'info@road-safety.co.in,deepanshu@road-safety.co.in';
+    		$email_subject = "Collaboration || IRSC Website";
+			$email_body = "You have received a new message from the user $name.\n".
+							"Name: $name \n".
+							"Email Id: $email \n".
+							"Contact No.: $num \n".
+                            "Message: $message \n".;
+
           if(!empty($_POST["ngo"])) {
-            $ngo = $_POST["ngo"];            
+            $ngo = $_POST["ngo"]; 
+            $email_body = $email_body.$ngo;
+            $email_to = 'info@road-safety.co.in,mamta@road-safety.co.in,sonali@road-safety.co.in';           
           }
           if(!empty($_POST["company"])) {
-            $company = $_POST["company"];            
+            $company = $_POST["company"];  
+            $email_body = $email_body.$company; 
+             $email_to = 'info@road-safety.co.in,sonali@road-safety.co.in,ujjwal@road-safety.co.in,deepanshu@road-safety.co.in,akhtar@road-safety.co.in';  
+                    
           }
           if(!empty($_POST["college"])) {
-            $college = $_POST["college"];            
+            $college = $_POST["college"];
+            $email_body = $email_body.$college; 
+             $email_to = 'info@road-safety.co.in,samarth@road-safety.co.in,ujjwal@road-safety.co.in,deepanshu@road-safety.co.in,akhtar@road-safety.co.in';           
           }
+           mail($email_to,$email_subject,$email_body);
+
         }
         ?>
 
@@ -110,7 +127,7 @@
               <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
               <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
               <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
-              <p><label>College:</label><input type="text" name="college" value="<?php echo $college; ?>"></p><br/>
+              <p><label>School/College:</label><input type="text" name="college" value="<?php echo $college; ?>"></p><br/>
               <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br/>
             <input type="submit" value="Submit" class="btn btn-primary">
             </form>
