@@ -182,8 +182,8 @@
                 </div>              
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
                     <div class="activity-item what-we-do" style="height: 200px;">
-                        <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Developing Technical Innovations</p>
-                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                        <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Develop Technical Innovations</p>
+                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assistance was rendered</b></p>
                          <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>
