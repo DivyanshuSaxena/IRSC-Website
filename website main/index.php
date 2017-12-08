@@ -243,14 +243,17 @@
     <section class="section activity-area ">
         <div class="container">
             <div class="row">
-            <div class="col-md-8 gadkari-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
-            <div class="col-md-4" >
-            <ul>
-            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p> </li>
-            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
-            	<li style="margin-top: 30px; margin-bottom: 30px;"><img src="circle.png" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"><p style="margin-left: 20px; display: inline-block; ">lorem ipsum</p></li>
-            </ul>
+            <div class="col-md-7 gadkari-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
+            <div class="col-md-5" >
+                <div class="row">
+                  <div class="col-xs-2"><img src="./assets/img/people/dipak.jpeg" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"></div>
+                  <div class="col-xs-10"><p><em>Dipak K. Dash, Times of India</em><br/>"A young dedicated and concerned group who are bringing changes on ground to make roads safer. For the first time came across a group, which is doing more and talking less."</p></div>
                 </div>
+                <div class="row">
+                  <div class="col-xs-2"><img src="./assets/img/people/sush.jpg" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"></div>
+                  <div class="col-xs-10"><p><em>Dr. Sushma Sagar, Trauma Surgeon, AIIMS</em><br/>"Indian Road Safety Campaign , an excellent initiative by young students led by IITians  for the cause of trauma prevention, is the need of the  hour to curb loss of young productive lives on road.Each effort and step taken in this direction will go a long way in avoiding preventable deaths in coming years. As Trauma surgeon feel proud to be associated with youths of India."</p></div>
+                </div>
+            </div>
         	</div>
     	</div>
       <!-- collaborators start -->
