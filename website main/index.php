@@ -151,50 +151,55 @@
     </section>       
 
     <section class="activity-area section">
-        <div class="container" style="max-width: 800px;">
+        <div class="container" style="max-width: 1400px;">
             <div class="row">
                 <div class="col-md-12">
                   <h2 class="section-title" style="font-size: 40px;">WHAT WE DO</h2>
                 </div>                
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
-                    <div class="activity-item what-we-do" style="height: 200px; ">
-                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: #e25440;">17</p>
+                    <div class="activity-item what-we-do" style="height: 200px;">
+                        <p class="problem-font" style="font-size: 1.5em; padding: 10px;color: #e25440;">Improving Traffic Conditions</p>
                         <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
+                        <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                       
-                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;">4.07</p>
-                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: #e25440;"><b>LAKH CRORES</b></p>
+                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Simplifying the Law </p>
+                        
                         <p style="color: #353637;"><b>is the cost to India due to road crashes annually</b></p>
+                         <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                         
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">46</p>
+                        <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">First Responder Workshops </p>
                         <p class="problem-font" style="color: #353637;"><b>children die every day on Indian roads</b></p>
+                         <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>              
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
                     <div class="activity-item what-we-do" style="height: 200px;">
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">50%</p>
-                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
+                        <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Develop Technical Innovations</p>
+                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assistance was rendered</b></p>
+                         <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item what-we-do" style="height: 200px;">
-                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">50</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
+                        <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Making Ambulances Accessible</p>
                         <p style="color: #353637;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                         <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>               
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
                     <div class="activity-item what-we-do" style="height: 200px; ">
-                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">10</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
+                     <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Educating the Masses</p>
+                       
                         <p style="color: #353637;"><b>people have been killed in road accidents over the past decade</b></p>
+                         <button class="btn btn-primary">Know More</button>
                     </div>
                 </div>
             </div>
