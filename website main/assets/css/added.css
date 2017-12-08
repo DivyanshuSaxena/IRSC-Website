@@ -60,3 +60,7 @@
 .nav-tabs li a:hover {
 	color: white !important;
 }
+
+form p label {
+	width: 100px;
+}

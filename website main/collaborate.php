@@ -69,25 +69,110 @@
           <li><a data-toggle="tab" href="#menu3">Corporate</a></li>
         </ul>
 
+        <?php
+        $name = $email = $msg = $ngo = $college = $company = $num = "";
+        $err_name = $err_email = "";
+
+        if($_SERVER['REQUEST_METHOD']=="POST"){
+          //Validation
+          $name = $_POST["name"];
+          $email = $_POST["email"];
+          $num = $_POST["num"];
+          $msg = $_POST["msg"];
+          $company = $_POST["company"];
+          $college = $_POST["college"];
+          if(!empty($_POST["ngo"])) {
+            $ngo = $_POST["ngo"];            
+          }
+          if(!empty($_POST["company"])) {
+            $company = $_POST["company"];            
+          }
+          if(!empty($_POST["college"])) {
+            $college = $_POST["college"];            
+          }
+        }
+        ?>
+
         <div class="tab-content">
           <div id="home" class="tab-pane fade in active">
             <h3>Individual</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br>
+              <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br>
+            <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
           </div>
           <div id="menu1" class="tab-pane fade">
             <h3>College</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
+              <p><label>College:</label><input type="text" name="college" value="<?php echo $college; ?>"></p><br/>
+              <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br/>
+            <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
           </div>
           <div id="menu2" class="tab-pane fade">
             <h3>NGO</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
+              <p><label>NGO:</label><input type="text" name="ngo" value="<?php echo $ngo; ?>"></p><br/>
+              <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br/>
+            <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
           </div>
           <div id="menu3" class="tab-pane fade">
             <h3>Corporate</h3>
-            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
+              <p><label>Company:</label><input type="text" name="company" value="<?php echo $company; ?>"></p><br/>
+              <p><label>Message:</label> <textarea name="msg" rows="5" cols="30"></textarea></p><br/>
+            <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
           </div>
         </div>    
       </div>
+    </div>
+
+    <div style="width: 30vw; min-width: 300px; margin: auto; text-align: center; padding: 10px; font-family: Calibri; font-size: 1em;">
+      <?php
+
+      if($_SERVER['REQUEST_METHOD']=="POST"){
+        //Validation
+        if(empty($_POST["name"])) {
+          $err_name = "Name is required. Please re-enter.";
+          echo $err_name;
+        }
+        elseif(!preg_match("/^[a-zA-z]*$/", $name)) {
+          $err_name = "Name can contain only letters. Please re-enter.";
+          echo $err_name;
+        }
+        elseif(empty($_POST["email"])) {
+          $err_email = "Email is required. Please re-enter.";
+          echo $err_email;
+        }
+        elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          $err_email = "Email id is not correct. Please re-enter.";
+          echo $err_email;
+        }
+        else {
+          echo "Hi ".$name."!<br/>";
+          echo "Thanks for your interest. We shall soon be contacting you.";
+          // $dir = "uploads/";
+          // $targetfile = $dir.basename($_FILES["uploadedFile"]["name"]);
+          // move_uploaded_file($_FILES["uploadedFile"]["tmp_name"], $targetfile);
+          // $buffer = fopen("uploadinfo.txt", "ab");
+          // fwrite($buffer, $fname." ".$lname." uploaded ".$_FILES["uploadedFile"]["name"]." on ".date("d-m-y")." and with description: ".$brief."\r\n");
+        }
+      }
+      ?>
     </div>
 
     <?php include './footer.php' ?>
