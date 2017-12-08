@@ -70,8 +70,9 @@
         </ul>
 
         <?php
-        $name = $email = $msg = $ngo = $college = $company = $num = "";
+        $name = $email = $msg = $num = "";
         $err_name = $err_email = "";
+        $from_email = "akhtar@road-safety.co.in";
 
         if($_SERVER['REQUEST_METHOD']=="POST"){
           //Validation
@@ -79,15 +80,10 @@
           $email = $_POST["email"];
           $num = $_POST["num"];
           $msg = $_POST["msg"];
-          $company = $_POST["company"];
-          $college = $_POST["college"];
-           $email_to = 'info@road-safety.co.in,deepanshu@road-safety.co.in';
+          $headers = "From: $from_email\r\n";
+           $email_to = 'info@road-safety.co.in,deepanshu@road-safety.co.in,dssaxena2011@gmail.com';
     		$email_subject = "Collaboration || IRSC Website";
-			$email_body = "You have received a new message from the user $name.\n".
-							"Name: $name \n".
-							"Email Id: $email \n".
-							"Contact No.: $num \n".
-                            "Message: $message \n".;
+			$email_body = "You have received a new message from the user:\nName: ".$name."\nEmail Id: ".$email."\nContact No.: ".$num."\nMessage: ".$msg."\n";
 
           if(!empty($_POST["ngo"])) {
             $ngo = $_POST["ngo"]; 
@@ -105,7 +101,7 @@
             $email_body = $email_body.$college; 
              $email_to = 'info@road-safety.co.in,samarth@road-safety.co.in,ujjwal@road-safety.co.in,deepanshu@road-safety.co.in,akhtar@road-safety.co.in';           
           }
-           mail($email_to,$email_subject,$email_body);
+           mail($email_to,$email_subject,$email_body,$headers);
 
         }
         ?>
@@ -167,7 +163,7 @@
           $err_name = "Name is required. Please re-enter.";
           echo $err_name;
         }
-        elseif(!preg_match("/^[a-zA-z]*$/", $name)) {
+        elseif(!preg_match("/^[a-zA-z_]*$/", $name)) {
           $err_name = "Name can contain only letters. Please re-enter.";
           echo $err_name;
         }

@@ -31,15 +31,9 @@
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">Regular Events</a></li>                     
-                    <li><a href="event.php">UN Road Safety Week</a></li>
-                    <li class="dropdown dropdown-toggle">
-                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
-                      <ul class="dropdown-menu pull">
-                        <li><a href="#">iSafe</a></li>
-                        <li><a href="#">Watch the Road</a></li>
-                      </ul>
-                    </li>
+                    <li><a href="event.php">Upcoming Events</a></li>                     
+                    <li><a href="calender.php">Calender</a></li>
+                    <li><a href="http://www.road-safety.co.in/isafe">iSAFE</a></li>
                   </ul>
                 </li>
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
@@ -73,6 +67,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Blog</a></li>                     
                     <li><a href="event.php">In Media</a></li>
+                    <li><a href="event.php">Videos</a></li>
                     <li><a href="event.php">Press Release</a></li>
                   </ul>                        
                 </li>               
