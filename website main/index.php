@@ -64,7 +64,7 @@
     </section>
     <!-- End Content Section  -->
 
-   <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+   <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="3200">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
@@ -77,20 +77,19 @@
     <div class="carousel-inner front-carousel">
 
       <div class="item active">
-        <img src="assets/img/background/carousel1.jpg">
+        <img src="assets/img/about/aware.jpg">
       </div>
 
       <div class="item">
-        <img src="assets/img/background/carousel2.jpg">
+        <img src="assets/img/about/youth.jpg">
       </div>
     
       <div class="item">
-        <img src="assets/img/background/carousel3.jpg">
+        <img src="assets/img/about/collaborate.jpg">
       </div>
-  	  
 
       <div class="item">
-        <img src="assets/img/background/carousel4.jpg">
+        <img src="assets/img/about/educate.jpg">
       </div>
     </div>
    </div>
@@ -370,12 +369,12 @@
     <script type="text/javascript" src="assets/js/contact-form-script.js"></script>  
     <script type="text/javascript">
     	new TypeIt('.element', {
-    	 strings: ["Create Awareness","Involve & Educate the Youth","Design, Ideate and Develop","Are the Trend Setters","Are Indian Road Safety Campaign"],
+    	 strings: ["Create Awareness Among the Masses","Involve & Educate the Youth","Collaborate with the leaders","Educate and Train Stakeholders","Are Indian Road Safety Campaign"],
     	 breakLines: false,
     	 loop: true,
-    	 speed: 75,
+    	 speed: 60,
     	 nextStringDelay: 800,
-    	 deleteSpeed: 25
+    	 deleteSpeed: 20
 		});
     </script>
     <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
