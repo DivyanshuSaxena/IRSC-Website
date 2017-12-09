@@ -94,13 +94,17 @@
 	        <div class="col-md-8 col-sm-6 col-xs-12">
 	           <div class="about-header">
 	               <h3 class="medium-title">Our Vision</h3>
-	               <p>Ne ilman osaan on he osata ja. No rosvoavat semmoisia se varmuuden. Tuon ota han saa anna niin elan koli aija. Nuo yha saan joko tyly. Meille sanoen vei ole vuoden kaikki talven tuo porsas. He kasvoista ai juoksette ja tervehtii on. Porhalsi loytaisi me lekkeria paasevat ja.</p>
+	               <p>AN OVERVIEW
+                    <ul>
+                      <li>1.3 million people died due to preventable car crashes in the past decade.</li>
+                      <li>17 lives in India are lost due to road crashes every hour. </li>
+                      <li>5.3 million people have been seriously injured in road crashes in the past decade....</li>
+                    </ul>
+                    .... And the numbers keep increasing. As long as road safety is not appreciated, and not a way of life, each and every one of us put their life at stake whenever we commute by any means. Driving on an Indian highway for 400km exposes you to 8-9 micromort risk of dying, which makes it as dangerous an activity as skydiving!
+                  </p>
+
+                  <p>  IRSC, along with WHO and MoRTH, aims to ensure healthy lives and promote well-being for all at all ages. Hence, we, MoRTH and WHO share the vision to save millions of lives by making Indian Roads Safer. We want to see these numbers go down and be cut to half by 2020. We plan to achieve this by working constructively with the government and bring basic policy level and structural changes, and by doing technical innovations in the field of road safety, backed up by the various IITs, and numerous other colleges around India  working tirelessly with us to achieve the same</p>
 	           </div>
-	            <ul class="info-list">
-              <li><a href="#"><i class="fa fa-check"></i> Narwhal quinoa sriacha organic.</a></li>
-              <li><a href="#"><i class="fa fa-check"></i> Artisan paleo flannel, polaroid umami franzen.</a></li>
-              <li><a href="#"><i class="fa fa-check"></i> Sriracha vegan typewriter tofu gentrify.</a></li>
-            </ul>
 	        </div>
 	    </div>    
         </div>
@@ -115,13 +119,18 @@
           <div class="col-md-8 col-sm-6 col-xs-12">
             <div class="about-header">
                 <h3 class="medium-title">Our Mission</h3>
-                <p>For norland produce age wishing. To figure on it spring season up. Her provision acuteness had excellent two why intention. As called mr needed praise at. Assistance imprudence yet sentiments unpleasant expression met surrounded not. Be at talked ye though secure nearer.</p>
+                <p>Three major focus of IRSC by which we intend to create change are technology, infrastructure and awareness. From working in one college and one city in 2014, IRSC is currently active in more than 60+ cities in 15 + states having impacted over 1 crore people. It also harbours the support from various prestigious organizations across the world thus helping our vision of making Indian roads safer! Through our propogandas and events, We aim to reach out to each and every individual in this country. We want the youth of today to be the agents of change for a safer future!<br/>
+
+                IRSC aims to achieve this visions by working across 4 domains. There is also a 5th domain to appreciate the year round efforts of people involved in our cause.</p>
             </div>
-            <ul class="info-list">
-              <li><a href="#"><i class="fa fa-check"></i> Narwhal quinoa sriacha organic.</a></li>
-              <li><a href="#"><i class="fa fa-check"></i> Artisan paleo flannel, polaroid umami franzen.</a></li>
-              <li><a href="#"><i class="fa fa-check"></i> Sriracha vegan typewriter tofu gentrify.</a></li>
+            <ul>
+              <li><a href="#"><i class="fa fa-check"></i> Policy arm: Policy Internships are aimed at solving pertinent road safety issues. We send the youth out onto various locations across India and work on a road-related issue in a particular locality and solve it by collaborating with the government. The problems are addressed by identification, research and implementation.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Technical arm: We provide technical internships to develop technical solutions for pertinent road safety issues and also to give students exposure on how to solve social problems via technological intervention. We are running a large number of projects for developing tools, and researching on various aspects related to road-safety in collaboration with various IIT’s.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Lecture Sessions/Discussion Sessions: We hold a large number of sessions across the various colleges and industries awaring the professionals and the youths about various aspects of road-safety.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Field Visits/Workshops arm: A large number of practical demonstration sessions and workshops are organized in association with various hospitals to educate about skills such as role of first responders in case of accidents.</a></li>
+              <li><a href="#"><i class="fa fa-check"></i> Competitions: We also organize various competitions regularly to aware the youth about road-related issues by igniting the competitive spirit in them.</a></li>
             </ul>
+                <p>Road safety is a very important issue indeed for youths and 67% of the 1.5 lakh victims are aged between 15-34. We want the youths to act as bearers of change to create sustainable impact, with one mission in mind - safer roads for everyone. </p>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="img-thumb">

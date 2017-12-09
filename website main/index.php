@@ -158,47 +158,45 @@
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
                     <div class="activity-item what-we-do" style="height: 200px;">
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px;color: #e25440;">Improving Traffic Conditions</p>
-                        <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
-                        <button class="btn btn-primary">Know More</button>
+                        <p class="problem-font" style="color: #353637;"><b>250+ locations impacted with 20+ major problems through our policy fellowships.</b></p>
+                        <a href="./policy.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item what-we-do" style="height: 200px;">
-                      
                          <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Simplifying the Law </p>
-                        
-                        <p style="color: #353637;"><b>is the cost to India due to road crashes annually</b></p>
-                         <button class="btn btn-primary">Know More</button>
+                        <p style="color: #353637;"><b>Working with the Supreme Court Committee on Road Safety on the Motor Vehicle Act</b></p>
+                         <a href="./law.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
-                </div>
+                </div>  
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                         
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">First Responder Workshops </p>
-                        <p class="problem-font" style="color: #353637;"><b>children die every day on Indian roads</b></p>
-                         <button class="btn btn-primary">Know More</button>
+                        <p style="color: #353637;"><b>Working with AIIMS and other health centers to improve the post-crash emergency conditions.</b></p>
+                         <a href="./medical.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>              
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Develop Technical Innovations</p>
-                        <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assistance was rendered</b></p>
-                         <button class="btn btn-primary">Know More</button>
+                        <p style="color: #353637;"><b>Innovating, ideating and developing innovations through our programs.</b></p>
+                         <a href="./technical.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
                     <div class="activity-item what-we-do" style="height: 200px;">
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Making Ambulances Accessible</p>
-                        <p style="color: #353637;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
-                         <button class="btn btn-primary">Know More</button>
+                        <p style="color: #353637;"><b>Work on services like safekart and ambivan to improve the road safety conditions in India.</b></p>
+                         <a href="./service.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>               
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
                     <div class="activity-item what-we-do" style="height: 200px; ">
                      <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Educating the Masses</p>
                        
-                        <p style="color: #353637;"><b>people have been killed in road accidents over the past decade</b></p>
-                         <button class="btn btn-primary">Know More</button>
+                        <p style="color: #353637;"><b>Conducting lectures and workshops to create awareness among the masses.</b></p>
+                         <a href="./awareness .php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>
             </div>
@@ -247,11 +245,11 @@
             <div class="col-md-5" >
                 <div class="row">
                   <div class="col-xs-2"><img src="./assets/img/people/dipak.jpeg" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"></div>
-                  <div class="col-xs-10"><p><em>Dipak K. Dash, Times of India</em><br/>"A young dedicated and concerned group who are bringing changes on ground to make roads safer. For the first time came across a group, which is doing more and talking less."</p></div>
+                  <div class="col-xs-10"><p><em class="bold">Dipak K. Dash, Times of India</em><br/>"A young dedicated and concerned group who are bringing changes on ground to make roads safer. For the first time came across a group, which is doing more and talking less."</p></div>
                 </div>
                 <div class="row">
                   <div class="col-xs-2"><img src="./assets/img/people/sush.jpg" style="border-radius: 50%; height: 60px; width: 60px; display: inline-block;"></div>
-                  <div class="col-xs-10"><p><em>Dr. Sushma Sagar, Trauma Surgeon, AIIMS</em><br/>"Indian Road Safety Campaign , an excellent initiative by young students led by IITians  for the cause of trauma prevention, is the need of the  hour to curb loss of young productive lives on road.Each effort and step taken in this direction will go a long way in avoiding preventable deaths in coming years. As Trauma surgeon feel proud to be associated with youths of India."</p></div>
+                  <div class="col-xs-10"><p><em class="bold">Dr. Sushma Sagar, Trauma Surgeon, AIIMS</em><br/>"Indian Road Safety Campaign , an excellent initiative by young students led by IITians  for the cause of trauma prevention, is the need of the  hour to curb loss of young productive lives on road.Each effort and step taken in this direction will go a long way in avoiding preventable deaths in coming years. As Trauma surgeon feel proud to be associated with youths of India."</p></div>
                 </div>
             </div>
         	</div>
@@ -292,10 +290,21 @@
       <div class="container">
         <div class="row">
           <h2 class="section-title">Media Coverage</h2>
-          <ul class="nav nav-pills">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4"><img src="./assets/img/media/toi1.jpg"></div>
+              <div style="vertical-align: middle; display: inline-block; float: none;" class="col-md-4"><img src="./assets/img/media/motoroids.png"></div>
+              <div class="col-md-4"><img src="./assets/img/media/et.png"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><img src=""></div>
+              <div class="col-md-4"><img src=""></div>
+              <div class="col-md-4"><img src=""></div>
+            </div>            
+          </div>
+          <!-- <ul class="nav nav-pills">
             <li class="active"><a data-toggle="pill" href="#home" style="margin-bottom: 10px">Times of India</a></li>
-            <li class=><a data-toggle="pill" href="#menu1" style="margin-bottom: 10px">Motoroids</a></li>
-            
+            <li class=><a data-toggle="pill" href="#menu1" style="margin-bottom: 10px">Motoroids</a></li>        
           </ul>
     
           <div class="tab-content">
@@ -309,7 +318,7 @@
               <p>The activities under iSAFE’17 have been organised keeping in view the ideology of, “making them do, what they like to do” to make a sustainable impact. Holistically, the impacts of the championship would include Technical innovations, Medical Research, 500+ sq. km on ground level implementation to improved road conditions and improved emergency care.</p>
             </div>
             
-        </div>
+        </div> -->
       </div>  
     </section> 
     <!-- News Coverage End --> 

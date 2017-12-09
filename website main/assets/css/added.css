@@ -57,9 +57,17 @@
 }
 
 form p label {
-	width: 100px;
+	width: 120px;
 }
 
 .front-carousel .item img{
 	width: 100% !important;
+}
+
+.what-we-do a {
+	color: white !important;
+}
+
+.bold {
+	font-weight: 800;
 }

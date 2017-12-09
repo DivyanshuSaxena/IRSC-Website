@@ -57,8 +57,7 @@
       <div class="container"><center>
          <div class="row" style="width: 800px; text-align: center;">
             <h2 class="text-center">About</h2>
-            <p>We give students technical exposure as to how they can use technologysolve road safety issues.We conducts Technical Internships and Projects under the guidance of faculty from various IIT's  and research center of leading transport management firm wherein interns work under the guidance of a faculty member on technical problems like designing a helmet, designing of roundabouts, android apps etc.
-</p>
+            <p>Our aim is to involve technologies to improve the road conditions of India. We give students technical exposure as to how they can use technology to solve road safety issues. We conduct Technical Internships and Projects under the guidance of faculty from various IITs and research centers of leading transport management firms wherein interns work under the guidance of a faculty member on technical problems like designing a helmet, designing of roundabouts, android apps etc. Further, we are also involved in innovating and developing new products that can be released into the main marketstream and can be used by the general public. One such project is the breath analyzer project.</p>
         </div></center>
        
         <div class="row">
@@ -66,15 +65,9 @@
           <div class="row wow fadeIn">
                 <div class="col-lg-5 col-lg-offset-1">
                     <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(11).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
                         <div class="card-block">
                             <h4 class="card-title">Technical Internships</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">IRSC gives students the opportunity to work under professors and faculty members at premier institutions of India and to work on projects that shall help improve the road conditions of India. Last year, we had 30 interns for our program working on 10 projects overall. The projects involved study, research and ground visits as well. The interns worked in close collaboration with the faculty members and successfully completed their projects.</p>
                             <div class="read-more">
                                 <!-- <a href="#!" class="btn btn-info">Read more</a> -->
                             </div>
@@ -83,15 +76,12 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="card">
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(25).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
                         <div class="card-block">
                             <h4 class="card-title">Road Accidents Data Portal</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="view overlay hm-white-slight">
+                            <img src="./assets/img/arms/portal.png" class="img-fluid" alt="">
+                        </div>
+                            <p class="card-text">This portal was developed in collaboration with the Ministry of Road Transport and Highways to make the data more readible and accessible for the common public. The website illustrates various details about road crashes in the different states of the country.</p>
                             <div class="read-more">
                                 <!-- <a href="#!" class="btn btn-info">Read more</a> -->
                             </div>

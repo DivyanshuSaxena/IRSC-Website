@@ -14,8 +14,14 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <!-- Color Switcher -->
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/added.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
@@ -29,21 +35,13 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
-    
-    <!-- Google Maps -->
-    <style>
-      #google-map,
-      body,
-      html {
-        padding: 0;
-        height: 400px;
-      }
-    </style>
-    
+
   </head>
+
   <body>
     
-   <?php include './header.php' ?>
+    <?php include './header.php' ?>
+    <!-- Header area wrapper End -->
 
     <!-- Page Header Start -->
     <div class="page-header" style="background: url(assets/img/banner1.jpg);">
@@ -51,10 +49,10 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Contact Us</h2>
+              <h2 class="page-title">Collaborate</h2>
               <a href="index.html">Home</a>
               <span>/</span>
-              <span class="current">Contact Us</span>
+              <span class="current">Collaborate</span>
             </div>
           </div>
         </div>
@@ -62,27 +60,138 @@
     </div>
     <!-- Page Header End --> 
 
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
+    <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
-            </div>
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Individual</a></li>
+          <li><a data-toggle="tab" href="#menu1">School/College</a></li>
+          <li><a data-toggle="tab" href="#menu2">NGO</a></li>
+          <li><a data-toggle="tab" href="#menu3">Corporate</a></li>
+        </ul>
+
+        <?php
+        $name = $email = $msg = $num = "";
+        $err_name = $err_email = "";
+        $from_email = "akhtar@road-safety.co.in";
+
+        if($_SERVER['REQUEST_METHOD']=="POST"){
+          //Validation
+          $name = $_POST["name"];
+          $email = $_POST["email"];
+          $num = $_POST["num"];
+          $msg = $_POST["msg"];
+          $headers = "From: $from_email\r\n";
+           $email_to = 'info@road-safety.co.in,deepanshu@road-safety.co.in,dssaxena2011@gmail.com';
+    		$email_subject = "Collaboration || IRSC Website";
+			$email_body = "You have received a new message from the user:\nName: ".$name."\nEmail Id: ".$email."\nContact No.: ".$num."\nMessage: ".$msg."\n";
+
+          if(!empty($_POST["ngo"])) {
+            $ngo = $_POST["ngo"]; 
+            $email_body = $email_body.$ngo;
+            $email_to = 'info@road-safety.co.in,mamta@road-safety.co.in,sonali@road-safety.co.in';           
+          }
+          if(!empty($_POST["company"])) {
+            $company = $_POST["company"];  
+            $email_body = $email_body.$company; 
+             $email_to = 'info@road-safety.co.in,sonali@road-safety.co.in,ujjwal@road-safety.co.in,deepanshu@road-safety.co.in,akhtar@road-safety.co.in';  
+                    
+          }
+          if(!empty($_POST["college"])) {
+            $college = $_POST["college"];
+            $email_body = $email_body.$college; 
+             $email_to = 'info@road-safety.co.in,samarth@road-safety.co.in,ujjwal@road-safety.co.in,deepanshu@road-safety.co.in,akhtar@road-safety.co.in';           
+          }
+           mail($email_to,$email_subject,$email_body,$headers);
+
+        }
+        ?>
+
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>Individual</h3>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br>
+              <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br>
+            <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
           </div>
-        </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>College</h3>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
+              <?php $college = "" ?>
+              <p><label>School/College:</label><input type="text" name="college" value="<?php echo $college; ?>"></p><br/>
+              <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br/>
+            <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>NGO</h3>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
+              <?php $ngo = "" ?>
+              <p><label>NGO:</label><input type="text" name="ngo" value="<?php echo $ngo; ?>"></p><br/>
+              <p><label>Message:</label><textarea name="msg" rows="5" cols="30"></textarea></p><br/>
+            <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <h3>Corporate</h3>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+              <p><label>Name:</label><input type="text" name="name" value="<?php echo $name; ?>"></p><br/>
+              <p><label>Email id:</label><input type="text" name="email" value="<?php echo $email; ?>"></p><br/>
+              <p><label>Contact No.:</label><input type="text" name="num" value="<?php echo $num; ?>"></p><br/>
+              <?php $company = "" ?>
+              <p><label>Company:</label><input type="text" name="company" value="<?php echo $company; ?>"></p><br/>
+              <p><label>Message:</label> <textarea name="msg" rows="5" cols="30"></textarea></p><br/>
+            <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+          </div>
+        </div>    
       </div>
-    </section>
-    <!-- End Content Section  -->
+    </div>
 
-    <!-- Start Map Section -->
-    <div id="google-map"></div>
-    <!-- End Map Section -->
+    <div style="width: 30vw; min-width: 300px; margin: auto; text-align: center; padding: 10px; font-family: Calibri; font-size: 1em;">
+      <?php
 
+      if($_SERVER['REQUEST_METHOD']=="POST"){
+        //Validation
+        if(empty($_POST["name"])) {
+          $err_name = "Name is required. Please re-enter.";
+          echo $err_name;
+        }
+        elseif(!preg_match("/^[a-zA-z_]*$/", $name)) {
+          $err_name = "Name can contain only letters. Please re-enter.";
+          echo $err_name;
+        }
+        elseif(empty($_POST["email"])) {
+          $err_email = "Email is required. Please re-enter.";
+          echo $err_email;
+        }
+        elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          $err_email = "Email id is not correct. Please re-enter.";
+          echo $err_email;
+        }
+        else {
+          echo "Hi ".$name."!<br/>";
+          echo "Thanks for your interest. We shall soon be contacting you.";
+          // $dir = "uploads/";
+          // $targetfile = $dir.basename($_FILES["uploadedFile"]["name"]);
+          // move_uploaded_file($_FILES["uploadedFile"]["tmp_name"], $targetfile);
+          // $buffer = fopen("uploadinfo.txt", "ab");
+          // fwrite($buffer, $fname." ".$lname." uploaded ".$_FILES["uploadedFile"]["name"]." on ".date("d-m-y")." and with description: ".$brief."\r\n");
+        }
+      }
+      ?>
+    </div>
 
- <?php include './footer.php' ?>
+    <?php include './footer.php' ?>
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
@@ -106,146 +215,6 @@
     
     <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>
-
-      <!-- Google Maps API -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHo_WtZ2nIYCgCLf7sINZaqcrpqSDio9o"></script>
-      <!-- Google Maps JS Only for Contact Pages -->
-      <script type="text/javascript">
-      var map;
-      var defult = new google.maps.LatLng(55.8638037, -4.2834354,13.67);
-      var mapCoordinates = new google.maps.LatLng(55.8638037, -4.2834354,13.67); 
-      
-      
-      var markers = [];
-      var image = new google.maps.MarkerImage(
-        'assets/img/map-marker.png',
-        new google.maps.Size(84, 70),
-        new google.maps.Point(0, 0),
-        new google.maps.Point(60, 60)
-      );
-      
-      function addMarker() {
-        markers.push(new google.maps.Marker({
-          position: defult,
-          raiseOnDrag: false,
-          icon: image,
-          map: map,
-          draggable: false
-        }
-      ));
-        
-      }
-      
-      function initialize() {
-        var mapOptions = {
-          backgroundColor: "#ffffff",
-          zoom: 15,
-          disableDefaultUI: true,
-          center: mapCoordinates,
-          zoomControl: false,
-          scaleControl: false,
-          scrollwheel: false,
-          disableDoubleClickZoom: true,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          styles: [{
-            "featureType": "landscape.natural",
-            "elementType": "geometry.fill",
-            "stylers": [{
-              "color": "#ffffff"
-            }
-                       ]
-          }
-                   , {
-                     "featureType": "landscape.man_made",
-                     "stylers": [{
-                       "color": "#ffffff"
-                     }
-                                 , {
-                                   "visibility": "off"
-                                 }
-                                ]
-                   }
-                   , {
-                     "featureType": "water",
-                     "stylers": [{
-                       "color": "#80C8E5"
-                     }
-                                 , {
-                                   "saturation": 0
-                                 }
-                                ]
-                   }
-                   , {
-                     "featureType": "road.arterial",
-                     "elementType": "geometry",
-                     "stylers": [{
-                       "color": "#999999"
-                     }
-                                ]
-                   }
-                   , {
-                     "elementType": "labels.text.stroke",
-                     "stylers": [{
-                       "visibility": "off"
-                     }
-                                ]
-                   }
-                   , {
-                     "elementType": "labels.text",
-                     "stylers": [{
-                       "color": "#333333"
-                     }
-                                ]
-                   }
-                   
-                   , {
-                     "featureType": "road.local",
-                     "stylers": [{
-                       "color": "#dedede"
-                     }
-                                ]
-                   }
-                   , {
-                     "featureType": "road.local",
-                     "elementType": "labels.text",
-                     "stylers": [{
-                       "color": "#666666"
-                     }
-                                ]
-                   }
-                   , {
-                     "featureType": "transit.station.bus",
-                     "stylers": [{
-                       "saturation": -57
-                     }
-                                ]
-                   }
-                   , {
-                     "featureType": "road.highway",
-                     "elementType": "labels.icon",
-                     "stylers": [{
-                       "visibility": "off"
-                     }
-                                ]
-                   }
-                   , {
-                     "featureType": "poi",
-                     "stylers": [{
-                       "visibility": "off"
-                     }
-                                ]
-                   }
-                   
-                  ]
-          
-        }
-            ;
-        map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-        addMarker();
-        
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 
   </body>
 </html>

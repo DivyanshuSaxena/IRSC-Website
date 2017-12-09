@@ -53,7 +53,7 @@
     <!-- Page Header End --> 
 
     <!-- Start Content Section -->
-    <section id="content" class="error-bg">
+    <section id="content">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">

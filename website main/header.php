@@ -31,7 +31,7 @@
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event.php">Upcoming Events</a></li>                     
+                    <li><a href="events.php">Upcoming Events</a></li>                     
                     <li><a href="calender.php">Calender</a></li>
                     <li><a href="http://www.road-safety.co.in/isafe">iSAFE</a></li>
                   </ul>
@@ -49,9 +49,11 @@
 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">Founders</a></li>                     
+                    <li><a href="event.php">Founders</a></li>                     
                     <li><a href="coreteam.php">Core Team</a></li>            
-                    <li><a href="crw.php">CRWs</a></li>                  
+                    <li><a href="crw.php">City Team</a></li>    
+                    <li><a href="boas.php">Board of Advisory</a></li>  
+                    <li><a href="event.php">Expert Panel</a></li>                
                     <li><a href="collegechapter.php">College Chapters</a></li>                  
                     <li><a href="event.php">Join Us</a></li>
                   </ul>
@@ -71,10 +73,10 @@
                     <li><a href="event.php">Press Release</a></li>
                   </ul>                        
                 </li>               
-                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
+                <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Collaborate <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="projects.php">Join Us</a></li>
-                    <li><a href="collaborate.php">Collaborate</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                   </ul>
                 </li>
               </ul>
