@@ -30,6 +30,14 @@
     <link rel="stylesheet" href="assets/css/added.css">
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
+    <style type="text/css">
+        td, th{
+            border: 1px solid black;
+            padding-left: 50px;
+            padding-right: 50px !important;
+            text-align: left;
+        }
+    </style>
 
   </head>
   <body>
@@ -66,99 +74,96 @@
           <h2 class="text-center">Our Past Projects under the Policy Fellowship</h2>
           <div class="row wow fadeIn">
                 <div class="col-md-6">
-                    <div class="card">
-                        <div class="panel panel-default well">
-                            <div class="card-text">
-                                <span class="bold">Location: </span>Saraswati Sugar Mill, NH-73, Yamuna Nagar<br/>
-                                <span class="bold">Problem: </span>Lots of Overloaded trucks<br><br/>
-                                <span class="bold">Solution: </span>
-                                <ul>
-                                    <li>Construction of Four way lane.</li>
-                                    <li>Proper truck stand.</li>
-                                    <li>Bridge should be constructed over the railway crossing lines.</li>
-                                </ul><br>
-                                <span class="bold">Implementation Detail: </span><br/>a) Direct way made from Kalanaur to Damla to reduce traffic congestion from Sahranpur side.<br>
-                                b)Cats eye and reflectors are installed.<br>
+                 <table>
+                     <tr>
+                         <th>Location</th>
+                         <th>Problem</th>
+                         <th>Solution</th>
+                     </tr>
+                     <tr>
+                         <td rowspan="3">Saraswati Sugar Mill, NH-73, Yamuna Nagar</td>
+                         <td rowspan="3">Lots of Overloaded trucks</td>
+                         <td>Construction of Four way lane</td>
+                     </tr>
+                     <tr>
+                         <td>Proper truck stand</td>
+                     </tr>
+                     <tr>
+                         <td>"Bridge should be constructed over the railway crossing lines."</td>
+                     </tr>
 
-                                <a href="#!" class="btn btn-info">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="panel panel-default well">
-                            <div class="panel-body">
-                                <span class="bold">Location: </span>Savitri-Chirag Delhi Flyovers,South Delhi<br/>
-                                <span class="bold">Problem: </span>
-                                    <ul>
-                                        <li>Bifurcation of traffic due to a series of U-turns</li>
-                                        <li>Pavement is nearly non- existent which leaves pedestrians no choice but to occupy half a lane meant for vehicular traffic</li>
-                                    </ul><br>
-                                <span class="bold">Solution: </span>
-                                <ul>
-                                    <li>One-way flyover must be extended to a two-way flyover.</li>
-                                    <li>Subway at the right turn for the pedestrians.</li>
-                                    <li>Separate lane for the bicycles.</li>
-                                    <li>Underpass must be constructed from Khanpur side towards Moolchand Side.</li>
-                                    <li>The traffic should be controlled using a computerized system.</li>
-                                </ul><br>
-                                <span class="bold">Implementation Detail: </span><br/>
-                                a)The left area near the wine and beer shop at Savitri Cinema Complex used to be a congested area which has now been made a No Parking Zone which has made it easier for the movement of the traffic.
-                                <br/>b)The reflectors on the U-Turn at Savitri Complex have been replaced with new ones which has led to proper visibility and decreased number of road accidents at one of the most prominent places of South-Delhi.
-                                <br/>c)The manual control of the traffic signals at Chirag Delhi junction has been under a better monitoring technique wherein the timings have been reduced upto 100 seconds from 150 second which has led to better controlling by freeing up the left lane.
-                                <br/>d)Timings of the traffic signal were taken care of at the Chirag Delhi crossing.<br>
-                            
-                                <a href="#!" class="btn btn-info">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="panel panel-default well">
-                            <div class="panel-body">
-                                <span class="bold">Location: </span>P and T circle, Jodhpur, Rajasthan.<br/>
-                                <span class="bold">Problem: </span>
-                                    <ul>
-                                        <li>Crossing at the P and T circle, which contains a blind turn which is a cause for trouble for the local residents.</li>
-                                        <li>Tall boundary walls restrict the visibility of the driver of the vehicles, causing a great number of accidents.</li>
-                                        <li>No rules as such being violated, but this blind turn is causing a problem for many people who cross this area daily.</li>
-                                    </ul><br>
-                                <span class="bold">Solution: </span>
-                                <ul>
-                                    <li>Install a mirror on the circle, so that the people could see the car coming from the other side well before the car was actually visible.</li>
-                                    <li>There should be speed breakers made on the road to slow down the cars coming from either side.</li>
-                                    <li>A traffic policeman should be present on the circle, so that people do not drive on the wrong side.</li>
-                                </ul><br>
-                                <span class="bold">Implementation Detail: </span><br/>
-                                Speed breakers were constructed.<br>
-                            
-                                <a href="#!" class="btn btn-info">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="panel panel-default well">
-                            <div class="panel-body">
-                                <span class="bold">Location: </span>Shahbad Daulatpur to Bawana road, Delhi.<br/>
-                                <span class="bold">Problem: </span>
-                                    <ul>
-                                        <li>No proper traffic signals and aministration at Bawana Chowk(3- way junction) leading to severe traffic jams.</li>
-                                        <li>No traffic police at the Mahadev chowk(4-way junction) amd no pedestrian crossings.</li>
-                                        <li>The area near Shahbad dairy is used as a bus stand for all buses and RTVs leading to traffic congestion and accidents.</li>
-                                        <li>No divider or speed breakers nearby DTU Gate to avoid chaos at peak times.</li>
-                                    </ul><br>
-                                <span class="bold">Solution: </span>
-                                <ul>
-                                    <li>At the Bawana Chowk the bus stand should be shifted a bit away from the junction.</li>
-                                    <li>At Mahadev Chowk proper traffic lights should be installed, traffic officials should be placed there,leveling of the road should be done, pedestrian crossings,blinkers and lane markings are required.</li>
-                                    <li>At Shahbad Dairy separate lanes should be constructed for school buses and pedestrians. Illegal parkings should be removed.</li>
-                                    <li>Speed breakers and dividers should be constructed near the DTU gate and stoppage of vehicles right in front og the gate should be avoided.</li>
-                                </ul><br>
-                            
-                                <a href="#!" class="btn btn-info">Read more</a>
-                            </div>
-                        </div>
-                    </div>
+                     <tr>
+                         <td rowspan="5">Savitri-Chirag Delhi Flyovers,South Delhi</td>
+                         <td rowspan="3">Bifurcation of traffic due to a series of U-turns</td>
+                         <td>One-way flyover must be extended to a two-way flyover.</td>
+                     </tr>
+                     <tr>
+                         <td>Subway at the right turn for the pedestrians</td>
+                     </tr>
+                     <tr>
+                         <td>Separate lane for the bicycles.</td>
+                     </tr>
+                     <tr>
+                         <td rowspan="2">"Pavement is nearly non- existent which
+leaves pedestrians no choice but to occupy half a lane meant for vehicular
+traffic"</td>
+
+                         <td>Underpass must be constructed from Khanpur side towards Moolchand Side.</td>
+                     </tr>
+                     <tr>
+                         <td>The traffic should be controlled using a computerized system.</td>
+                     </tr>
+
+                     <tr>
+                         <td rowspan="3">Inderlok Metro Station,Delhi</td>
+                         <td>"4-way road  one is a very confined and
+narrow road just below the metro line the vehicles are struck in a traffic jam"</td>
+                         <td>"Block the U-turn between the traffic lights 2 and 3 and increase the
+width of road C ."</td>
+                     </tr>
+                     <tr>
+                         <td>"A U-turn on one of those 4 roads increases the traffic jam road is not that broad to allow people to
+take a U-turn."</td>
+                         <td>Effective use of traffic lights</td>
+                     </tr>
+                     <tr>
+                         <td>Poor conditions of traffic light and no traffic policemen</td>
+                         <td>"to make U-
+turn into road A by removing divider between road A and B
+nearer to the main red-light 1."</td>
+                     </tr>
+
+                     <tr>
+                         <td rowspan="3">Dabri near Janakpuri,Delhi</td>
+                         <td rowspan="2">"After the construction of Pankha Road flyover, the heavy traffic coming
+from nearby locations from four lanes converges into a single lane."</td>
+                        <td>"Building needs to be torn down,if that isn’t
+possible, alternate roads need to be brought in use which
+are currently being encroached by residents."</td>
+                     </tr>
+                     <tr>
+                         <td>"The cut at the end of the flyover needs to be closed
+permanently."</td></tr>
+                    <tr>
+                        <td rowspan="1">Absence of traffic signals.</td>
+                        <td>"Traffic signal to be installed in the crossing in front
+of Dada Dev Hospital."</td>
+                    </tr>
+
+                    <tr>
+                        
+                    </tr>
+                    
+
+
+
+                 </table>
+
+
+                    
+
+                       
+                  
                 </div>
             </div>
         </div>
