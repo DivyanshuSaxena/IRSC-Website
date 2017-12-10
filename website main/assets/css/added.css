@@ -1,5 +1,5 @@
 .typed h1 {
-	color: black;
+	color: #353637;
 }
 
 .typed {
@@ -9,6 +9,11 @@
 	min-width: 350px;
 	margin: 0 12vw 0 8vw;
 	z-index: 500;
+}
+
+.typed h1 .text {
+	background-color: rgba(221,221,221,0.4);
+	width: wrap;
 }
 
 #mainCarousel {
@@ -70,4 +75,8 @@ form p label {
 
 .bold {
 	font-weight: 800;
+}
+
+.flicker-gallery img {
+	margin: 5px 0px;
 }

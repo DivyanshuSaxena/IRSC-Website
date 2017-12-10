@@ -58,7 +58,7 @@
     <section id="content">
       <div class="container-fluid">
       	<div class="typed">
-			<h1 class="text-center">We <span class="element"></span></h1>
+			<h1 class="text-center"><span class="text">We <span class="element"></span></span></h1>
       	</div>
       </div>
     </section>

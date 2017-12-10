@@ -27,9 +27,9 @@
             <ul class="recent-post">
               <li class="post">
                 <a href="assets/img/flicker/img1.jpg" class="lightbox">
-                <img alt="" src="assets/img/flicker/img1.jpg">
+                <img alt="" src="assets/img/arms/portal.png">
                 </a>
-                <p class="text">A portal for road accidents data <br><span>www.missionroadsafety.com</span></p>
+                <p class="text">A portal for road accidents data <br><span><a href="www.missionroadsafety.com">www.missionroadsafety.com</a></span></p>
               </li>
               <li class="post">
                 <a href="assets/img/flicker/img1.jpg" class="lightbox">
@@ -47,7 +47,7 @@
               Important Links
             </h3>
             <ul class="list">
-              <li><a href="#">iSAFE</a></li>
+              <li><a href="http://www.road-safety.co.in/isafe">iSAFE</a></li>
               <li><a href="#">Ambivan</a></li>
               <li><a href="#">Safekart</a></li>
               <li><a href="#">Marathon</a></li>
@@ -62,13 +62,13 @@
             <h3 class="small-title">
               Gallery
             </h3>
-            <div class="plain-flicker-gallery">
-              <a href="#" title="Pan Masala"><img src="assets/img/flicker/img1.jpg" alt=""></a>
-              <a href="#" title="Sports Template for Joomla"><img src="assets/img/flicker/img2.jpg" alt=""></a>
-              <a href="" title="Apple Keyboard"><img src="assets/img/flicker/img3.jpg" alt=""></a>
-              <a href="" title="Hard Working"><img src="assets/img/flicker/img4.jpg" alt=""></a>
-              <a href="" title="Smile"><img src="assets/img/flicker/img5.jpg" alt=""></a>
-              <a href="" title="Puzzle"><img src="assets/img/flicker/img6.jpg" alt=""></a>
+            <div class="flicker-gallery">
+              <img src="assets/img/gallery/gal1.jpg" alt="" class="col-sm-6 col-xs-6">
+              <img src="assets/img/gallery/gal2.jpg" alt="" class="col-sm-6 col-xs-6">
+              <img src="assets/img/gallery/gal3.jpg" alt="" class="col-sm-6 col-xs-6">
+              <img src="assets/img/gallery/gal4.jpg" alt="" class="col-sm-6 col-xs-6">
+              <img src="assets/img/gallery/gal5.jpg" alt="" class="col-sm-6 col-xs-6">
+              <img src="assets/img/gallery/gal6.jpg" alt="" class="col-sm-6 col-xs-6">
             </div>
           </div><!-- Footer Widget Ends -->
         </div><!-- Row Ends -->
