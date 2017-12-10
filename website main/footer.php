@@ -53,6 +53,7 @@
               <li><a href="#">Marathon</a></li>
               <li><a href="#">Conferences</a></li>
               <li><a href="important.php">Important Resources</a></li>
+              <li><a href="#">Login</a></li>
             </ul>
           </div>
           <!-- Footer Widget Ends -->
