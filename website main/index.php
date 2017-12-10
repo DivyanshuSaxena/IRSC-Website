@@ -71,6 +71,7 @@
       <li data-target="#mainCarousel" data-slide-to="1"></li>
       <li data-target="#mainCarousel" data-slide-to="2"></li>
       <li data-target="#mainCarousel" data-slide-to="3"></li>
+      <li data-target="#mainCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -90,6 +91,10 @@
 
       <div class="item">
         <img src="assets/img/about/educate.jpg">
+      </div>
+
+      <div class="item">
+        <img src="assets/img/about/irsc_cover.jpg">
       </div>
     </div>
    </div>
