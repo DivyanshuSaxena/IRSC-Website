@@ -52,8 +52,7 @@
                     <li><a href="event.php">Founders</a></li>                     
                     <li><a href="coreteam.php">Core Team</a></li>            
                     <li><a href="crw.php">City Team</a></li>    
-                    <li><a href="boas.php">Board of Advisory</a></li>  
-                    <li><a href="event.php">Expert Panel</a></li>                
+                    <li><a href="boas.php">Board of Advisory</a></li>          
                     <li><a href="collegechapter.php">College Chapters</a></li>                  
                     <li><a href="event.php">Join Us</a></li>
                   </ul>
@@ -69,8 +68,8 @@
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Blog</a></li>                     
                     <li><a href="event.php">In Media</a></li>
-                    <li><a href="event.php">Videos</a></li>
-                    <li><a href="event.php">Press Release</a></li>
+                    <li><a href="videos.php">Videos</a></li>
+                    <li><a href="press.php">Press Release</a></li>
                   </ul>                        
                 </li>               
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Collaborate <i class="fa fa-angle-down"></i></a>

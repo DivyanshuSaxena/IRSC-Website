@@ -53,28 +53,27 @@
     <!-- Page Header End -->
 
     <!-- Start Content Section -->
-    <section id="content" class="error-bg">
+    <section id="content">
       <div class="container"><center>
          <div class="row" style="width: 800px; text-align: center;">
             <h2 class="text-center">About</h2>
-            <p>Awareness is one of the most crucial arm of our organisation, consistinf various services that includes: organising of Lectures, Field Visits, School Visits, Competitions, Events, Marathons, Street Plays etc.
-</p>
+            <p>Awareness is one of the most crucial arm of our organisation, consisting of various services that includes: organising of Lectures, Field Visits, School Visits, Competitions, Events, Marathons, Street Plays etc.</p>
         </div></center>
        
         <div class="row">
-          <h2 class="text-center">Our Projects</h2>
+          <h2 class="text-center">Our Activities</h2>
           <div class="row wow fadeIn">
                 <div class="col-lg-5 col-lg-offset-1">
                     <div class="card">
                         <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(11).jpg" class="img-fluid" alt="">
+                            <img src="./assets/img/arms/pd.jpg" class="img-fluid" alt="">
                             <a href="#!">
                                 <div class="mask"></div>
                             </a>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title">Technical Internships</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h4 class="card-title">Panel Discussions</h4>
+                            <p class="card-text">IRSC regularly holds panel discussions, inviting experts in the field of road safety and discussions are based on all aspects of road safety. The role of youth in overcoming the problem of road crashes is highlighted in these discussions. Students and enthusiasts from various institutions participate in these discussions and gain valuable insights.</p>
                             <div class="read-more">
                                 <!-- <a href="#!" class="btn btn-info">Read more</a> -->
                             </div>
@@ -84,14 +83,50 @@
                 <div class="col-lg-5">
                     <div class="card">
                         <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(25).jpg" class="img-fluid" alt="">
+                            <img src="./assets/img/arms/street.jpg" class="img-fluid" alt="">
                             <a href="#!">
                                 <div class="mask"></div>
                             </a>
                         </div>
                         <div class="card-block">
-                            <h4 class="card-title">Road Accidents Data Portal</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h4 class="card-title">Street Play</h4>
+                            <p class="card-text">Drama can convey messages in a much more efficient manner than anything else. And hence, we organise street plays at various locations. The colleges participating in our competitions also organise similar plpays and these plays are held at places where the outreach can be maximised.</p>
+                            <div class="read-more">
+                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeIn">
+                <div class="col-lg-5 col-lg-offset-1">
+                    <div class="card">
+                        <div class="view overlay hm-white-slight">
+                            <img src="./assets/img/arms/slowdown.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">Slow Down Requests</h4>
+                            <p class="card-text">We, at IRSC, don't leave any stone unturned to bring about significant changes in the field of road safety. Our volunteers go out to the streets and ask the people to restrict their speeds in person and to wear helmets. It is believed that many people take lesson from these incidents and follow them.</p>
+                            <div class="read-more">
+                                <!-- <a href="#!" class="btn btn-info">Read more</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card">
+                        <div class="view overlay hm-white-slight">
+                            <img src="./assets/img/arms/school.jpg" class="img-fluid" alt="">
+                            <a href="#!">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <div class="card-block">
+                            <h4 class="card-title">School Visits</h4>
+                            <p class="card-text">The learnings we make as a child are carried forward throughout our lives. Therefore, we especially target the school children and encourage them to take road safety carefully and follow traffic rules. Besides, we also hols several essay-writing, sketching, quizzing competitions to instill such values in children.</p>
                             <div class="read-more">
                                 <!-- <a href="#!" class="btn btn-info">Read more</a> -->
                             </div>

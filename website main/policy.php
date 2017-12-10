@@ -73,7 +73,7 @@
         <div class="row">
           <h2 class="text-center">Our Past Projects under the Policy Fellowship</h2>
           <div class="row wow fadeIn">
-                <div class="col-md-6">
+                <div class="col-md-8 col-md-offset-2">
                  <table>
                      <tr>
                          <th>Location</th>

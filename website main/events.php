@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-6 col-xs-offset-2">
                     <div class="activity-item events" style="height: 240px;">
-                         <h4 style="font-size: 1.5em; padding: 10px; color: #e25440;">Event1</h4>
+                         <h4 style="font-size: 1.5em; padding: 10px; color: #e25440;">10km Marathon</h4>
                          <p style="color: #353637;"><b>Date:</b></p>
                          <p style="color: #353637;"><b>Venue:</b></p>
                          <p style="color: #353637;"><b>Description:</b></p>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-6" >
                     <div class="activity-item events" style="height: 240px;">
-                         <h4 style="font-size: 1.5em; padding: 10px; color: #e25440;">Event2</h4>
+                         <h4 style="font-size: 1.5em; padding: 10px; color: #e25440;">Road Safety Conference</h4>
                          <p style="color: #353637;"><b>Date:</b></p>
                          <p style="color: #353637;"><b>Venue:</b></p>
                          <p style="color: #353637;"><b>Description:</b></p>
