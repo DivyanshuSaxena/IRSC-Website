@@ -41,7 +41,7 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Events Upcomming</h2>
+              <h2 class="page-title">Upcoming Events</h2>
               <a href="index.html">Home</a>
               <span>/</span>
               <span class="current">Events Grid</span>
@@ -53,17 +53,29 @@
     <!-- Page Header End --> 
 
     <!-- Start Content Section -->
-    <section id="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
+    <section class="activity-area section">
+        <div class="container" style="max-width: 1400px;">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-6 col-xs-offset-2">
+                    <div class="activity-item events" style="height: 240px;">
+                         <h4 style="font-size: 1.5em; padding: 10px; color: #e25440;">Event1</h4>
+                         <p style="color: #353637;"><b>Date:</b></p>
+                         <p style="color: #353637;"><b>Venue:</b></p>
+                         <p style="color: #353637;"><b>Description:</b></p>
+                         <a href="./law.php"><button class="btn btn-primary">Know More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6" >
+                    <div class="activity-item events" style="height: 240px;">
+                         <h4 style="font-size: 1.5em; padding: 10px; color: #e25440;">Event2</h4>
+                         <p style="color: #353637;"><b>Date:</b></p>
+                         <p style="color: #353637;"><b>Venue:</b></p>
+                         <p style="color: #353637;"><b>Description:</b></p>
+                         <a href="./law.php"><button class="btn btn-primary">Know More</button></a>
+                    </div>
+                </div> 
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- End Content Section  -->
 
