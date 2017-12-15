@@ -685,6 +685,7 @@ button:focus {
 }
 .navbar {
   margin-bottom: 0;
+  z-index: 600;
 }
 .affix {
   width: 100%;

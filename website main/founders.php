@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main Style -->
@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <script src="assets/js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="assets/extras/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/extras/owl.theme.css" type="text/css">
@@ -31,9 +35,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
 
   </head>
+
   <body>
     
-    <!-- Header area wrapper Starts -->
     <?php include './header.php' ?>
     <!-- Header area wrapper End -->
 
@@ -43,10 +47,10 @@
         <div class="row">         
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
-              <h2 class="page-title">Course Grid</h2>
+              <h2 class="page-title">Founders</h2>
               <a href="index.html">Home</a>
               <span>/</span>
-              <span class="current">All Course</span>
+              <span class="current">Team</span>
             </div>
           </div>
         </div>
@@ -54,37 +58,90 @@
     </div>
     <!-- Page Header End --> 
 
-    <!-- Start Content Section -->
-    <section id="content" class="error-bg">
+    <!-- About Us section Start -->
+    <div class="about section wow slideInLeft" style="padding: 20px !important;" data-wow-duration="1s">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="error-page">
-              <h3><a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase">Please, Purchase full version to Get all <b>Pages</b> and <b>Features</b></a></h3>
-              <a rel="nofollow" href="https://rebrand.ly/gg-bright-purchase" class="btn btn-common">GET IT NOW!</a>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="img-thumb">
+                    <img src="assets/img/about/img1.jpg" alt="Amar">
+                </div>
             </div>
-          </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="about-header">
+                    <h3 class="medium-title">Amar Srivastava</h3>
+                    <p>Details</p>
+                </div>
+            </div>
         </div>
+      <hr/>  
       </div>
-    </section>
-    <!-- End Content Section  -->
 
-    <!-- Start Call to Action Section -->
-    <div class="cta">
+    </div>
+
+    <div class="about section wow slideInRight" data-wow-duration="1s">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-sm-8">
-            <h3>Locavore food truck cornhole sustainable paleo hella.</h3>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <a href="#" class="btn btn-border">BUY NOW</a>
-          </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="img-thumb">
+                    <img src="assets/img/about/img2.jpg" alt="Isha">
+                </div>
+            </div>
+        
+            <div class="col-md-8 col-sm-6 col-xs-12">
+               <div class="about-header">
+                   <h3 class="medium-title">Isha Goyal</h3>
+                   <p>Details</p>
+               </div>
+            </div>
+        </div>    
         </div>
+      <hr/>  
       </div>
-    </div>
-    <!-- End Call to Action Section -->
 
-  <?php include './footer.php' ?>
+    </div>
+
+    <div class="about section wow slideInLeft" data-wow-duration="1s">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="img-thumb">
+                    <img src="assets/img/about/img1.jpg" alt="Sonali">
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="about-header">
+                    <h3 class="medium-title">Sonali Kumari</h3>
+                    <p>Details</p>
+                </div>
+            </div>
+        </div>
+      <hr/>  
+      </div>
+
+    </div>
+
+    <div class="about section wow slideInRight" data-wow-duration="1s">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="img-thumb">
+                    <img src="assets/img/about/img1.jpg" alt="Jishnudeep">
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="about-header">
+                    <h3 class="medium-title">Jishnudeep Kar</h3>
+                    <p>Details</p>
+                </div>
+            </div>
+        </div>
+      <hr/>  
+      </div>
+
+    </div>
+
+    <?php include './footer.php' ?>
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">

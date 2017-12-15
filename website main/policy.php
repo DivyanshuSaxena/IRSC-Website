@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main Style -->
@@ -64,7 +64,7 @@
     <!-- Start Content Section -->
     <section id="content">
       <div class="container"><center>
-         <div class="row" style="width: 800px; text-align: center;">
+         <div class="row" style="text-align: center;">
             <h2 class="text-center">About</h2>
             <p>We conduct summer and winter internships every year. Under policy internship, interns gain practical experience of various Road Safety issues. Further brainstorming on the solutions that are required to be implemented. Work is done on analyzing problems, researching existing solutions, designing solutions, justifying the need and feasibility of the solutions and also trying to get them implemented through repective Government Authorities. The aim is to bring ground level changes in the field of road-safety by analysing real-life problems, surveying and designing feasible solutions and getting them implemented with the help of government authorities, thereby contributing towards IRSC’s vision of reducing road accidents by half by 2020
 </p>

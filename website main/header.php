@@ -49,12 +49,12 @@
 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event.php">Founders</a></li>                     
+                    <li><a href="founders.php">Founders</a></li>                     
                     <li><a href="coreteam.php">Core Team</a></li>            
                     <li><a href="crw.php">City Team</a></li>    
                     <li><a href="boas.php">Board of Advisory</a></li>          
                     <li><a href="collegechapter.php">College Chapters</a></li>                  
-                    <li><a href="event.php">Join Us</a></li>
+                    <li><a href="joinus.php">Join Us</a></li>
                   </ul>
                 </li> 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
@@ -74,7 +74,7 @@
                 </li>               
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Collaborate <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="projects.php">Join Us</a></li>
+                    <li><a href="joinus.php">Join Us</a></li>
                     <li><a href="contact.php">Contact</a></li>
                   </ul>
                 </li>
@@ -96,85 +96,35 @@
 
             <!-- Mobile Menu Start -->
             <ul class="wpb-mobile-menu">
-              <!-- <li>
-                <a class="active" href="index.php">Home</a>
-              </li>
-              <li>
-                <a class="active" href="about.php">About</a>
-              </li>
-              <li>
-                <a href="#">Courses</a>
-                <ul>
-                  <li><a href="courses-list.php">Courses List</a></li>    
-                  <li><a href="courses-grid.php">Courses Grid</a></li>  
-                  <li><a href="courses-single.php">Single Course</a></li>   
-                </ul>                        
-              </li>
-              <li>
-                <a href="#">Pages</a>
-                <ul>
-                  <li><a href="about.php">About Page</a></li>                     
-                  <li><a href="gallery.php">Image Gallery</a></li>
-                  <li><a href="faq.php">FAQ</a></li>    
-                  <li><a href="login.php">Login Page</a></li> 
-                  <li><a href="single-teacher.php">Single Teacher</a></li> 
-                  <li><a href="registration.php">Registration Form</a></li> 
-                  <li><a href="contact.php">Contacts</a></li> 
-                  <li><a href="404.php">404</a></li> 
-                </ul>                        
-              </li>
-              <li>
-                <a href="#">Events</a>
-                <ul>
-                  <li><a href="event-grid.php">Events Grid</a></li>                     
-                  <li><a href="event.php">Single Event</a></li>
-                </ul>                        
-              </li> 
-              <li>
-                <a href="#">Media</a>
-                <ul>
-                  <li><a href="blog.php">Blog - Right Sidebar</a></li>                     
-                  <li><a href="blog-left-sidebar.php">Blog - Left Sidebar</a></li>
-                  <li><a href="blog-full-width.php">Blog - Full Width</a></li>   
-                  <li><a href="single-post.php">Blog Single Post</a></li>   
-                </ul>                        
-              </li>              
-              <li><a href="contact.php">Contact</a></li> -->
               <li class="dropdown dropdown-toggle">
                   <a href="about.php">About</a>
                 </li>
                 <li class="dropdown dropdown-toggle">
                   <a href="#" data-toggle="dropdown">Events <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">Regular Events</a></li>                     
-                    <li><a href="event.php">UN Road Safety Week</a></li>
-                    <li class="dropdown dropdown-toggle">
-                      <a href="event-grid.php" data-toggle="dropdown">Competitions <i class="fa fa-angle-right"></i></a>
-                      <ul class="dropdown-menu pull">
-                        <li><a href="#">iSafe</a></li>
-                        <li><a href="#">Watch the Road</a></li>
-                      </ul>
-                    </li>
+                    <li><a href="events.php">Upcoming Events</a></li>                     
+                    <li><a href="#">UN Road Safety Week</a></li>
+                    <li><a href="https://www.road-safety.co.in/isafe">iSAFE</a></li>
                   </ul>
                 </li>
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Domains <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Technical Arm</a></li>
-                    <li><a href="#">Medical Arm</a></li>
-                    <li><a href="#">Workshop Arm</a></li>
-                    <li><a href="#">Service Arm</a></li>
-                    <li><a href="#">Policy Arm</a></li>
-                    <li><a href="#">Law Arm</a></li>
+                    <li><a href="technical.php">Technical Arm</a></li>
+                    <li><a href="medical.php">Medical Arm</a></li>
+                    <li><a href="awareness.php">Awareness Arm</a></li>
+                    <li><a href="service.php">Service Arm</a></li>
+                    <li><a href="policy.php">Policy Arm</a></li>
+                    <li><a href="law.php">Law Arm</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Team <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="event-grid.php">Founders</a></li>                     
+                    <li><a href="founders.php">Founders</a></li>                     
                     <li><a href="coreteam.php">Core Team</a></li>            
                     <li><a href="crw.php">CRWs</a></li>                  
                     <li><a href="collegechapter.php">College Chapters</a></li>                  
-                    <li><a href="event.php">Join Us</a></li>
+                    <li><a href="joinus.php">Join Us</a></li>
                   </ul>
                 </li> 
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Impact <i class="fa fa-angle-down"></i></a>
@@ -188,13 +138,14 @@
                   <ul class="dropdown-menu">
                     <li><a href="event-grid.php">Blog</a></li>                     
                     <li><a href="event.php">In Media</a></li>
-                    <li><a href="event.php">Press Release</a></li>
+                    <li><a href="videos.php">Videos</a></li>
+                    <li><a href="press.php">Press Release</a></li>
                   </ul>                        
                 </li>               
                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Contact <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
-                    <li><a href="projects.php">Join Us</a></li>
-                    <li><a href="awards.php">Collabarate</a></li>
+                    <li><a href="joinus.php">Join Us</a></li>
+                    <li><a href="contact.php">Collabarate</a></li>
                   </ul>
                 </li>
             </ul>

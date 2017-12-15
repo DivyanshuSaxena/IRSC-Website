@@ -1,3 +1,44 @@
+@media screen and (max-width: 600px) {
+	.typed {
+		top: 15vh !important;
+		margin: auto;
+	}
+	.typed h1 {
+		font-size: 1.5em;
+	}
+	#mainCarousel img {
+		height: 100%;
+	}
+	iframe {
+		width: 100%;
+		height: 315px;
+	}
+	.problem {
+		height: 200px;
+	}
+	.what-we-do {
+		height: 200px;
+	}
+	.activity-item {
+		height: 220px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#mainCarousel {
+		height: 80vh;
+	}
+	.typed {
+		margin: 0 12vw 0 8vw;
+	}
+	iframe {
+		width: 560px;
+		height: 315px;
+	}
+}
+
+
+
 .typed h1 {
 	color: #000;
 }
@@ -6,9 +47,8 @@
 	position: absolute;
 	top: 40vh;
 	width: 80vw;
-	min-width: 350px;
-	margin: 0 12vw 0 8vw;
-	z-index: 500;
+	min-width: 250px;
+	z-index: 100;
 }
 
 .typed h1 .text {
@@ -19,7 +59,7 @@
 #mainCarousel {
 	position: relative;
 	top: -15vh;
-	height: 80vh;
+	/*height: 80vh;*/
 	overflow: hidden;
 }
 
@@ -62,7 +102,7 @@
 }
 
 form p label {
-	width: 120px;
+	width: 200px;
 }
 
 .front-carousel .item img{
@@ -77,6 +117,7 @@ form p label {
 	font-weight: 800;
 }
 
-.flicker-gallery img {
+.gallery img {
 	margin: 5px 0px;
+	float: left;
 }

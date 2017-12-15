@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main Style -->
@@ -55,7 +55,7 @@
     <!-- Start Content Section -->
     <section id="content">
       <div class="container"><center>
-         <div class="row" style="width: 800px; text-align: center;">
+         <div class="row" style="text-align: center;">
             <h2 class="text-center">About</h2>
             <p>Awareness is one of the most crucial arm of our organisation, consisting of various services that includes: organising of Lectures, Field Visits, School Visits, Competitions, Events, Marathons, Street Plays etc.</p>
         </div></center>

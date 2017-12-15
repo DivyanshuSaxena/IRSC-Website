@@ -14,7 +14,7 @@
               India's largest youth-led movement across more than five hundred colleges.
             </p>  
             <ul class="address">
-                <li><i class="fa fa-home"></i> New Delhi, India</li>
+                <li><i class="fa fa-home"></i> MS803, TRIPP Office, IIT Delhi, New Delhi.</li>
                 <li><i class="fa fa-envelope"></i> info@road-safety.com</li>
             </ul>        
           </div><!-- Footer Widget Ends -->
@@ -63,7 +63,7 @@
             <h3 class="small-title">
               Gallery
             </h3>
-            <div class="flicker-gallery">
+            <div class="gallery">
               <img src="assets/img/gallery/gal1.jpg" alt="" class="col-sm-6 col-xs-6">
               <img src="assets/img/gallery/gal2.jpg" alt="" class="col-sm-6 col-xs-6">
               <img src="assets/img/gallery/gal3.jpg" alt="" class="col-sm-6 col-xs-6">

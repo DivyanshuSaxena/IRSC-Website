@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main Style -->
@@ -101,8 +101,6 @@
             $email_body = $email_body.$college; 
              $email_to = 'info@road-safety.co.in,samarth@road-safety.co.in,ujjwal@road-safety.co.in,deepanshu@road-safety.co.in,akhtar@road-safety.co.in';           
           }
-           mail($email_to,$email_subject,$email_body,$headers);
-
         }
         ?>
 
@@ -166,8 +164,12 @@
           $err_name = "Name is required. Please re-enter.";
           echo $err_name;
         }
-        elseif(!preg_match("/^[a-zA-z_]*$/", $name)) {
+        elseif(!preg_match("/^[a-zA-z ]*$/", $name)) {
           $err_name = "Name can contain only letters. Please re-enter.";
+          echo $err_name;
+        }
+        elseif(!preg_match("/^[0-9]*$/", $num)) {
+          $err_name = "Contact No. should only contain digits. Please re-enter.";
           echo $err_name;
         }
         elseif(empty($_POST["email"])) {
@@ -186,6 +188,7 @@
           // move_uploaded_file($_FILES["uploadedFile"]["tmp_name"], $targetfile);
           // $buffer = fopen("uploadinfo.txt", "ab");
           // fwrite($buffer, $fname." ".$lname." uploaded ".$_FILES["uploadedFile"]["name"]." on ".date("d-m-y")." and with description: ".$brief."\r\n");
+          mail($email_to,$email_subject,$email_body,$headers);
         }
       }
       ?>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main Style -->
@@ -55,7 +55,7 @@
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
       <div class="container"><center>
-         <div class="row" style="width: 800px; text-align: center;">
+         <div class="row" style="text-align: center;">
             <h2 class="text-center">About</h2>
             <p>Working with AIIMS and other health centers, we are trying to improve the post crash emergency care in India by developing trainers/first-responders in each locality and developing videos that can be used by people to help people in emergency cases.
 </p>

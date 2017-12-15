@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main Style -->
@@ -55,7 +55,7 @@
     <!-- Start Content Section -->
     <section id="content" class="error-bg">
       <div class="container"><center>
-         <div class="row" style="width: 800px; text-align: center;">
+         <div class="row" style="text-align: center;">
             <h2 class="text-center">About</h2>
             <p>Working with the Supreme Court Committee on Road Safety and with students from various Law colleges in India, we intend to make the Law related to various aspects of road-safety accessible to all.
 </p>

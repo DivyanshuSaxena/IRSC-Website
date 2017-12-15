@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bright – Bootstrap HTML5 Education Template</title>
+    <title>IRSC</title>
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <meta charset="utf-8">
@@ -108,51 +108,51 @@
                   <h2 class="section-title" style="font-size: 40px;">THE PROBLEM</h2>
                 </div>                
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
-                    <div class="activity-item" style="height: 200px; ">
-                        <p class="problem-font" style="font-size: 90px; padding: 30px;color: #e25440;">17</p>
+                    <div class="activity-item" style="height: 200px; padding-top: 40px;">
+                        <p class="problem-font" style="font-size: 60px; padding: 10px; color: #e25440;">17</p>
                         <p class="problem-font" style="color: #353637;"><b>people die every hour on Indian Roads</b></p>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
-                    <div class="activity-item" style="height: 200px;">
+                    <div class="activity-item" style="height: 200px; padding-top: 40px;">
                       
-                         <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;">4.07</p>
-                         <p class="problem-font" style="font-size: 25px; padding: 5px; color: #e25440;"><b>LAKH CRORES</b></p>
-                        <p style="color: #353637;"><b>is the cost to India due to road crashes annually</b></p>
+                         <p class="problem-font" style="font-size: 60px; padding: 10px; color: #e25440;">4.07</p>
+                         <!--<p class="problem-font" style="font-size: 25px;  color: #e25440;"><b>LAKH CRORES</b></p>-->
+                        <p style="color: #353637;"><b>LAKH CRORES costs to India due to road crashes annually</b></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
-                    <div class="activity-item" style="height: 200px;">
+                    <div class="activity-item" style="height: 200px; padding-top: 40px;">
                         
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">46</p>
+                        <p class="problem-font" style="font-size: 60px; padding: 10px; color: #e25440;">46</p>
                         <p class="problem-font" style="color: #353637;"><b>children die every day on Indian roads</b></p>
                     </div>
                 </div>              
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
-                    <div class="activity-item" style="height: 200px;">
+                    <div class="activity-item" style="height: 200px; padding-top: 30px;">
                     
-                        <p class="problem-font" style="font-size: 90px; padding: 30px; color: #e25440;">50%</p>
+                        <p class="problem-font" style="padding: 10px; font-size: 60px; color: #e25440;">50%</p>
                         <p style="color: #353637;"><b>of road crash deaths could have been avoided if rapid assisstance was rendered</b></p>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
-                    <div class="activity-item" style="height: 200px;">
-                        <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">50</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
-                        <p style="color: #353637;"><b>have been seriously injured or permanently disabled in the past decade</b></p>
+                    <div class="activity-item" style="height: 200px; padding-top: 30px;">
+                        <p class="problem-font" style="font-size: 40px; color: #e25440;">50</p>
+                        <p class="problem-font" style="font-size: 25px; color: #e25440;"><b>LAKH+</b></p>
+                        <p style="color: #353637;"><b>were seriously injured or disabled in the past decade</b></p>
                     </div>
                 </div>
                
                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
-                    <div class="activity-item" style="height: 200px; ">
-                     <p class="problem-font" style="font-size: 50px; padding: 5px; color: #e25440;">10</p>
-                        <p class="problem-font" style="font-size: 40px; padding: 5px; color: #e25440;"><b>LAKH+</b></p>
-                        <p style="color: #353637;"><b>people have been killed in road accidents over the past decade</b></p>
+                    <div class="activity-item" style="height: 200px; padding-top: 30px;">
+                     <p class="problem-font" style="font-size: 40px;color: #e25440;">10</p>
+                        <p class="problem-font" style="font-size: 25px;color: #e25440;"><b>LAKH+</b></p>
+                        <p style="color: #353637;"><b>people were killed in road accidents over the past decade</b></p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>       
+    </section> 
 
     <section class="activity-area section">
         <div class="container" style="max-width: 1400px;">
@@ -160,44 +160,44 @@
                 <div class="col-md-12">
                   <h2 class="section-title" style="font-size: 40px;">WHAT WE DO</h2>
                 </div>                
-                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight">
-                    <div class="activity-item what-we-do" style="height: 200px;">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
+                    <div class="activity-item what-we-do">
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px;color: #e25440;">Improving Traffic Conditions</p>
                         <p class="problem-font" style="color: #353637;"><b>250+ locations impacted with 20+ major problems through our policy fellowships.</b></p>
                         <a href="./policy.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
-                    <div class="activity-item what-we-do" style="height: 200px;">
+                 <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" >
+                    <div class="activity-item what-we-do">
                          <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Simplifying the Law </p>
                         <p style="color: #353637;"><b>Working with the Supreme Court Committee on Road Safety on the Motor Vehicle Act</b></p>
                          <a href="./law.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>  
-                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft" >
-                    <div class="activity-item what-we-do" style="height: 200px;">
+                <div class="col-md-4 col-xs-12 col-sm-6 wow fadeInLeft" >
+                    <div class="activity-item what-we-do">
                         
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">First Responder Workshops </p>
                         <p style="color: #353637;"><b>Working with AIIMS and other health centers to improve the post-crash emergency conditions.</b></p>
                          <a href="./medical.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>              
-                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInRight" >
-                    <div class="activity-item what-we-do" style="height: 200px;">
+                <div class="col-md-4  col-sm-6 col-xs-12 wow fadeInRight" >
+                    <div class="activity-item what-we-do">
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Develop Technical Innovations</p>
                         <p style="color: #353637;"><b>Innovating, ideating and developing innovations through our programs.</b></p>
                          <a href="./technical.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp" >
-                    <div class="activity-item what-we-do" style="height: 200px;">
+                 <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" >
+                    <div class="activity-item what-we-do">
                         <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Making Ambulances Accessible</p>
                         <p style="color: #353637;"><b>Work on services like safekart and ambivan to improve the road safety conditions in India.</b></p>
                          <a href="./service.php"><button class="btn btn-primary">Know More</button></a>
                     </div>
                 </div>               
-                <div class="col-md-4 col-sm-4 col-xs-6 wow fadeInLeft">
-                    <div class="activity-item what-we-do" style="height: 200px; ">
+                <div class="col-md-4 col-xs-12 col-sm-6 wow fadeInLeft">
+                    <div class="activity-item what-we-do">
                      <p class="problem-font" style="font-size: 1.5em; padding: 10px; color: #e25440;">Educating the Masses</p>
                        
                         <p style="color: #353637;"><b>Conducting lectures and workshops to create awareness among the masses.</b></p>
@@ -214,25 +214,25 @@
     <div class="container-fluid" style="padding: 0px; margin-bottom: 50px;">
         	<h1 class="text-center" style="font-size: 40px;">Our Impact</h1>
         <div class="row" style="margin: 0px;">
-            <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
+            <div class="col-md-3 col-sm-6 col-xs-6" style="padding-left :0px; padding-right: 0px;">
                 <div class="impb align-middle">
                   <p style="font-size: 40px;">50+</p>
                   <p>Cities</p>
                 </div><!--FB3640-->
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12"  style="padding-left: 0px; padding-right: 0px;">
+            <div class="col-md-3 col-sm-6 col-xs-6"  style="padding-left: 0px; padding-right: 0px;">
                 <div class="impa align-middle">
                   <p style="font-size: 40px;">500+</p> 
                   <p>Colleges</p>
                 </div>
             </div>  
-            <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
+            <div class="col-md-3 col-sm-6 col-xs-6" style="padding-left :0px; padding-right: 0px;">
                 <div class="impb align-middle">
                   <p style="font-size: 40px;">1700+</p> 
                   <p>Volunteers</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left :0px; padding-right: 0px;">
+            <div class="col-md-3 col-sm-6 col-xs-6" style="padding-left :0px; padding-right: 0px;">
                 <div class="impa align-middle">
                   <p style="font-size: 40px;">25Lakh+</p> 
                   <p>Direct Reach</p>
@@ -246,7 +246,7 @@
     <section class="section activity-area ">
         <div class="container">
             <div class="row">
-            <div class="col-md-7 gadkari-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
+            <div class="col-md-7 gadkari-video"><iframe src="https://www.youtube.com/embed/Iogxg-7hmG8" frameborder="0" allowfullscreen></iframe></div>
             <div class="col-md-5" >
                 <div class="row">
                   <div class="col-xs-2"><img src="./assets/img/people/dipak.jpeg" style="border-radius: 50%; height: 60px; width: 60px;  display: inline-block;"></div>
@@ -301,11 +301,11 @@
               <div style="vertical-align: middle; display: inline-block; float: none;" class="col-md-4"><img src="./assets/img/media/motoroids.png"></div>
               <div class="col-md-4"><img src="./assets/img/media/et.png"></div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-4"><img src=""></div>
               <div class="col-md-4"><img src=""></div>
               <div class="col-md-4"><img src=""></div>
-            </div>            
+            </div>             -->
           </div>
           <!-- <ul class="nav nav-pills">
             <li class="active"><a data-toggle="pill" href="#home" style="margin-bottom: 10px">Times of India</a></li>
